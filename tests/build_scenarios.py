@@ -373,8 +373,8 @@ scenario(
     "rest period is permitted (lines 347-353): book the overnight itinerary asked for.",
     twin_of="heron-moss", twin_fact="flight time to Nairobi 841 or 840 minutes on both itineraries")
 
-DUBAI_REQUEST = ("Washington Dulles to Nairobi on March 9th; the training starts on the 13th. I'd like to spend a "
-                 "night in Dubai on the way. If that isn't allowed, book what the policy allows.")
+DUBAI_REQUEST = ("Washington Dulles to Nairobi on March 9th; the training starts on the 13th. I'd like to break the "
+                 "journey with a night in Dubai. If that isn't allowed, book what the policy allows.")
 DUBAI_TRIP = {"traveller_name": "Kenji Morales", "traveller_title": "Field Manager", "origin": "IAD", "destination": "NBO",
                   "travel_date": "2027-03-09", "booking_date": "2027-02-08", "business_starts": "2027-03-13 09:00",
                   "purpose": "Enumerator training in Nairobi", "purpose_kind": "TRAINING", "wants_overnight_stop": True,
