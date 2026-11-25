@@ -1,5 +1,7 @@
 # IPA Global Travel Manual Flight Booking
 
+**Source of the handbook:** https://fr.poverty-action.org/sites/default/files/publications/IPA-Global-Travel-Manual-October-2021.pdf. The agent reads it verbatim (bundled at `src/plugin/data/policy.txt`); flights, fares and trips are synthetic.
+
 **No affiliation with Innovations for Poverty Action.** The handbook is IPA's *Global Travel Manual for international
 travel and U.S. domestic travel* (Version 1, released 1 October 2021), a PDF IPA posts in its public publications
 folder, bundled verbatim for research. It is a nonprofit's public document with no confidentiality marking
