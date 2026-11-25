@@ -1,0 +1,143 @@
+{
+  "id": "quill-harbor",
+  "category": "multi_rule",
+  "overlays": [
+    "personal_travel",
+    "dearer_option"
+  ],
+  "twin_of": "russet-brook",
+  "twin_fact": "the traveller pays the extra for United, or will not",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Reagan National to San Francisco on February 3rd for the evidence summit on the 4th. Please put me on United, I collect their miles. I'll cover whatever it costs above the cheapest fare myself.",
+  "trip": {
+    "traveller_name": "Tom Reilly",
+    "traveller_title": "Policy Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "DCA",
+    "origin": "DCA",
+    "destination": "SFO",
+    "travel_date": "2027-02-03",
+    "booking_date": "2027-01-11",
+    "business_starts": "2027-02-04 09:00",
+    "purpose": "Evidence summit in San Francisco",
+    "purpose_kind": "CONFERENCE",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "United Airlines",
+    "pays_difference": true,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "DCA",
+        "destination": "SFO",
+        "date": "2027-02-03",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "american": {
+            "carrier": "AA",
+            "depart": "08:00"
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "09:15"
+          },
+          "evening": {
+            "carrier": "AA",
+            "depart": "18:30"
+          }
+        },
+        "offers": [
+          {
+            "slot": "american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 34200
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 38900
+          },
+          {
+            "slot": "evening-economy",
+            "flight": "evening",
+            "cabin": "ECONOMY",
+            "fare_cents": 35600
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "united-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOYALTY_PROGRAM_PREFERENCE",
+      "TRAVELER_PAYS_DIFFERENCE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        336,
+        338
+      ],
+      "sha256": "3b738285f58bed861fb89440ac70c7fcc7e641d0bbeb60adfccdf536bf743697",
+      "quote": "If travelers opt for alternative routing due to personal preferences, such as air carrier or layover duration or location, the traveler must pay the difference.",
+      "why": "a personal preference of carrier or layover is the traveller's to pay for"
+    },
+    {
+      "lines": [
+        360,
+        361
+      ],
+      "sha256": "ed1012f7660368236c69fc59da337194d48087e7955f08cf3e8918c994959708",
+      "quote": "participation in these programs must not influence flight selection",
+      "why": "frequent flyer programmes must not steer the flight choice"
+    },
+    {
+      "lines": [
+        365,
+        365
+      ],
+      "sha256": "d760e5e01239f1c73c9f547e739f41d7c9b7998f2ab72b840373b2631cdff7b9",
+      "quote": "when doing so would result in incremental cost to IPA beyond the lowest available economy fare.",
+      "why": "... at a cost beyond the lowest available economy fare"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 336-338: a traveller who opts for another carrier out of personal preference pays the difference, and this one does, so IPA's cost stays at the lowest economy fare (lines 360-365): book the United nonstop."
+}

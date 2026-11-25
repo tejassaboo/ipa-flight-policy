@@ -1,0 +1,155 @@
+{
+  "id": "zephyr-moor",
+  "category": "distractor",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Dulles to Frankfurt on February 9th for the research methods conference on the 10th; it's charged to our NSF grant. Economy, the cheapest that's allowed.",
+  "trip": {
+    "traveller_name": "Mei Tanaka",
+    "traveller_title": "Postdoctoral Fellow",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "FRA",
+    "travel_date": "2027-02-09",
+    "booking_date": "2027-01-11",
+    "business_starts": "2027-02-10 14:00",
+    "purpose": "Research methods conference in Frankfurt",
+    "purpose_kind": "CONFERENCE",
+    "funding": "US_GOVERNMENT",
+    "funding_source": "U.S. National Science Foundation research grant",
+    "award_terms": "The grant's terms ask for no sponsor approval before travel.",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "FRA",
+        "date": "2027-02-09",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "lufthansa": {
+            "carrier": "LH",
+            "depart": "17:50",
+            "minutes": [
+              500
+            ]
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "18:10",
+            "minutes": [
+              500
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "lufthansa-economy",
+            "flight": "lufthansa",
+            "cabin": "ECONOMY",
+            "fare_cents": 64000
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 79000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "lufthansa-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE",
+      "OPEN_SKIES_AGREEMENT"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "US_GOVERNMENT_PROCEDURE",
+      "USG_FUNDED_TRAVEL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        504,
+        506
+      ],
+      "sha256": "215e3b439fac607c5844b000cc12bb4ad6f9dc64ce78da160fa7426e077432b9",
+      "quote": "Per the Fly America Act, all air travel funded by the U.S. Government in which the origin or final destination is within the United States must be on a U.S.-flag air carrier, Open Skies carrier, or U.S. code share flight.",
+      "why": "federally funded travel to or from the U.S. on a U.S.-flag, Open Skies or code share flight"
+    },
+    {
+      "lines": [
+        1073,
+        1076
+      ],
+      "sha256": "6f32c7660fb19179daf9f4254d53ba93af62a4d23910f9c58097b19719695676",
+      "quote": "The US-EU Open Skies Agreement has been determined to meet the requirements of the Fly America Act and as a result, US Government-funded air travel may take place on European Community airlines (EU carriers) when traveling (1) between the U.S. and any point in an EU Member State or (2) between any two points outside the United States.",
+      "why": "EU airlines between the U.S. and an EU Member State, or between two points abroad"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        526,
+        527
+      ],
+      "quote": "Travel originates in a foreign country and is destined for a foreign country",
+      "why": "the two-points-abroad exception, which a trip from the U.S. does not meet"
+    }
+  ],
+  "design_notes": "The grant brings in Fly America (lines 504-506), which looks like it requires United, but it allows an Open Skies carrier, and lines 1073-1076 let an EU airline carry the trip between the U.S. and an EU Member State: Lufthansa's nonstop to Frankfurt at the lowest economy fare."
+}

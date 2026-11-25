@@ -1,0 +1,191 @@
+{
+  "id": "gull-heather",
+  "category": "flag",
+  "overlays": [
+    "unclear_phrase",
+    "outside_air_section",
+    "multi_leg"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "zephyr-moor",
+    "walnut-spire"
+  ],
+  "ambiguity_note": {
+    "phrase": "between the U.S. and any point in an EU Member State",
+    "readings": [
+      "each flight counts: Dulles-Amsterdam is between the U.S. and an EU Member State and Amsterdam-Nairobi is between two points outside the U.S., so KLM is compliant: book it",
+      "the journey counts: Dulles to Nairobi is neither, so KLM is not covered and only the U.S. carrier qualifies: book United"
+    ]
+  },
+  "request": "Dulles to Nairobi on April 27th for the study's endline training on the 29th; it's on our NSF grant. Economy please.",
+  "trip": {
+    "traveller_name": "Ana Lucia Gomez",
+    "traveller_title": "Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "NBO",
+    "travel_date": "2027-04-27",
+    "booking_date": "2027-03-29",
+    "business_starts": "2027-04-29 09:00",
+    "purpose": "Endline survey training in Kenya",
+    "purpose_kind": "TRAINING",
+    "funding": "US_GOVERNMENT",
+    "funding_source": "U.S. National Science Foundation research grant",
+    "award_terms": "The grant's terms ask for no sponsor approval before travel.",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "NBO",
+        "date": "2027-04-27",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "amsterdam": {
+            "carrier": "KL",
+            "via": [
+              "AMS"
+            ],
+            "depart": "17:35",
+            "minutes": [
+              470,
+              500
+            ],
+            "layovers": [
+              105
+            ]
+          },
+          "newark": {
+            "carrier": "UA",
+            "via": [
+              "EWR"
+            ],
+            "depart": "07:15",
+            "minutes": [
+              75,
+              920
+            ],
+            "layovers": [
+              140
+            ]
+          },
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:15",
+            "minutes": [
+              780,
+              290
+            ],
+            "layovers": [
+              125
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "amsterdam-economy",
+            "flight": "amsterdam",
+            "cabin": "ECONOMY",
+            "fare_cents": 118000
+          },
+          {
+            "slot": "newark-economy",
+            "flight": "newark",
+            "cabin": "ECONOMY",
+            "fare_cents": 146000
+          },
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 123000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "amsterdam-economy",
+      "newark-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "APPROVAL_REQUIRED",
+      "UNCLEAR_POLICY_TEXT"
+    ],
+    "approvers": [
+      "CHIEF_FINANCIAL_OFFICER",
+      "GRANTS_TEAM",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "US_GOVERNMENT_PROCEDURE",
+      "USG_FUNDED_TRAVEL"
+    ],
+    "unclear_phrase": "between the U.S. and any point in an EU Member State"
+  },
+  "must_keep": [
+    {
+      "lines": [
+        504,
+        506
+      ],
+      "sha256": "215e3b439fac607c5844b000cc12bb4ad6f9dc64ce78da160fa7426e077432b9",
+      "quote": "Per the Fly America Act, all air travel funded by the U.S. Government in which the origin or final destination is within the United States must be on a U.S.-flag air carrier, Open Skies carrier, or U.S. code share flight.",
+      "why": "federally funded travel to or from the U.S. on a U.S.-flag, Open Skies or code share flight"
+    },
+    {
+      "lines": [
+        1073,
+        1076
+      ],
+      "sha256": "6f32c7660fb19179daf9f4254d53ba93af62a4d23910f9c58097b19719695676",
+      "quote": "The US-EU Open Skies Agreement has been determined to meet the requirements of the Fly America Act and as a result, US Government-funded air travel may take place on European Community airlines (EU carriers) when traveling (1) between the U.S. and any point in an EU Member State or (2) between any two points outside the United States.",
+      "why": "EU airlines between the U.S. and an EU Member State, or between two points abroad"
+    },
+    {
+      "lines": [
+        507,
+        509
+      ],
+      "sha256": "b39628bee7007f23f034b2ed4f6fa3c5d06fbe54942a1242a9f3601be5a9ad05",
+      "quote": "Cost alone is not a justification for taking a foreign carrier",
+      "why": "cost alone does not justify a foreign carrier"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The grant brings in Fly America. KLM is an EU airline flying Dulles-Amsterdam-Nairobi. Lines 1073-1076 allow EU airlines 'when traveling (1) between the U.S. and any point in an EU Member State or (2) between any two points outside the United States': each KLM flight fits one branch, but the journey (the U.S. to Kenya) fits neither. Lines 504-506 name 'Open Skies carrier' with no route limit. On one reading the KLM fare is the lowest compliant fare; on the other only United qualifies (Emirates is foreign either way). Hold either."
+}

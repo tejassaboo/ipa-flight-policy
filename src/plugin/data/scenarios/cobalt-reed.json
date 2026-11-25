@@ -1,0 +1,151 @@
+{
+  "id": "cobalt-reed",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "JFK to Johannesburg on February 9th for the partner workshop on the 11th. It's a very long flight, so premium economy if I'm allowed it; if not, economy is fine.",
+  "trip": {
+    "traveller_name": "Hannah Okafor",
+    "traveller_title": "Senior Policy Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "JFK",
+    "origin": "JFK",
+    "destination": "JNB",
+    "travel_date": "2027-02-09",
+    "booking_date": "2027-01-05",
+    "business_starts": "2027-02-11 09:00",
+    "purpose": "Partner workshop in Johannesburg",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "PREMIUM_ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "JFK",
+        "destination": "JNB",
+        "date": "2027-02-09",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "delta": {
+            "carrier": "DL",
+            "depart": "11:15",
+            "minutes": [
+              960
+            ]
+          },
+          "doha": {
+            "carrier": "QR",
+            "via": [
+              "DOH"
+            ],
+            "depart": "09:40",
+            "minutes": [
+              750,
+              500
+            ],
+            "layovers": [
+              140
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "delta-economy",
+            "flight": "delta",
+            "cabin": "ECONOMY",
+            "fare_cents": 134000
+          },
+          {
+            "slot": "delta-premium",
+            "flight": "delta",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 247000
+          },
+          {
+            "slot": "doha-economy",
+            "flight": "doha",
+            "cabin": "ECONOMY",
+            "fare_cents": 139000
+          },
+          {
+            "slot": "doha-premium",
+            "flight": "doha",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 256000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "delta-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "UPGRADE_NOT_ELIGIBLE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        339,
+        341
+      ],
+      "sha256": "2199372b74ee42cbd142e1cfd0c2d89e7d63d815f6c1380f262ac93cb6f8d109",
+      "quote": "Upgraded classes of service (e.g., Economy Plus, Coach Elite, Coach Plus, Preferred Coach) airfare are not reimbursable. Upgrades to other-than-economy fare are permitted at the traveler's personal expense. Exceptions to this policy must be approved by the CFO.",
+      "why": "no upgraded class at IPA's cost; permitted at the traveller's expense; exceptions by the CFO"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 339-340: upgraded classes are not reimbursable whatever the flight's length; no CFO exception and no doctor's note are on file, and the traveller does not offer to pay. The traveller accepts economy: the lowest economy fare, the Delta nonstop, which is also quicker than the Qatar connection."
+}

@@ -1,0 +1,157 @@
+{
+  "id": "umber-glade",
+  "category": "hidden_clause",
+  "overlays": [
+    "outside_air_section",
+    "multi_leg"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book my husband Jonah from Dulles to Nairobi on February 2nd. He is leading the community health session of our field training on the 4th at the project's request; that is written in the travel request, and the budget-holder has approved his travel.",
+  "trip": {
+    "traveller_name": "Jonah Mensah",
+    "traveller_title": "Spouse of Ama Mensah, Senior Research Manager",
+    "passenger": "SPOUSE",
+    "accompanies": "Ama Mensah, Senior Research Manager",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "NBO",
+    "travel_date": "2027-02-02",
+    "booking_date": "2027-01-05",
+    "business_starts": "2027-02-04 09:00",
+    "purpose": "Leads the community health session of the field training at the project's request",
+    "purpose_kind": "TRAINING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      },
+      {
+        "role": "BUDGET_HOLDER",
+        "name": "Samuel Kim",
+        "subject": "COMPANION_TRAVEL"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "NBO",
+        "date": "2027-02-02",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:15",
+            "minutes": [
+              780,
+              290
+            ],
+            "layovers": [
+              125
+            ]
+          },
+          "doha": {
+            "carrier": "QR",
+            "via": [
+              "DOH"
+            ],
+            "depart": "16:40",
+            "minutes": [
+              760,
+              330
+            ],
+            "layovers": [
+              150
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 124000
+          },
+          {
+            "slot": "doha-economy",
+            "flight": "doha",
+            "cabin": "ECONOMY",
+            "fare_cents": 131000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "dubai-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "COMPANION_TRAVEL_AUTHORIZED",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "BUDGET_HOLDER",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "POLICIES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        142,
+        146
+      ],
+      "sha256": "b8498e2f005e5129e05b767846bdc28654e11a0b51f89df8d5d4aaba71cc82fa",
+      "quote": "Travel expenses that meet the requirements set forth in this Global Travel Manual incurred by a spouse or child(ren) under the age of 18 accompanying an employee on business will be reimbursed only when there is a bona fide business purpose for the travel of the spouse and/or child(ren), the business purpose is documented in the travel request, and the request is approved by the budget-holder.",
+      "why": "a spouse's travel only with a bona fide business purpose, documented, budget-holder approved"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 142-146 (in the Policies section, not Airfare): a spouse's travel is reimbursed when there is a bona fide business purpose for it, documented in the travel request and approved by the budget-holder; all three hold. The lowest economy fare, the Emirates connection, which is also the quicker of the two."
+}

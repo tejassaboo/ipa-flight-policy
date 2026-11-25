@@ -1,0 +1,141 @@
+{
+  "id": "dune-sparrow",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Washington Dulles to Bogota on January 20th for the partner meeting the next morning. Economy please.",
+  "trip": {
+    "traveller_name": "Paula Restrepo",
+    "traveller_title": "Research Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "BOG",
+    "travel_date": "2027-01-20",
+    "booking_date": "2026-12-14",
+    "business_starts": "2027-01-21 09:00",
+    "purpose": "Partner meeting in Bogota",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "BOG",
+        "date": "2027-01-20",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "avianca": {
+            "carrier": "AV",
+            "depart": "08:05",
+            "minutes": [
+              330
+            ]
+          },
+          "miami": {
+            "carrier": "AA",
+            "via": [
+              "MIA"
+            ],
+            "depart": "07:00",
+            "minutes": [
+              165,
+              215
+            ],
+            "layovers": [
+              100
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "avianca-economy",
+            "flight": "avianca",
+            "cabin": "ECONOMY",
+            "fare_cents": 43000
+          },
+          {
+            "slot": "miami-economy",
+            "flight": "miami",
+            "cabin": "ECONOMY",
+            "fare_cents": 46800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "avianca-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    },
+    {
+      "lines": [
+        159,
+        161
+      ],
+      "sha256": "56147349fb2353f7af4301b5747d6d0b89f05d4b9ba1d4477663abec1e4247d7",
+      "quote": "All domestic travel must be approved by the traveler's Assignment Supervisor. International travel must be approved by the Country Director (for Country Office staff) or appropriate Global Team Director (for Global Team staff).",
+      "why": "domestic travel: Assignment Supervisor; international: Country or Global Team Director"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The Avianca nonstop (330 minutes) is both the lowest economy fare and the most direct and expeditious route (the American connection through Miami takes 480 minutes and costs more): lines 334-336 on every reading."
+}

@@ -1,0 +1,193 @@
+{
+  "id": "tamarind-crest",
+  "category": "multi_rule",
+  "overlays": [
+    "personal_travel",
+    "outside_air_section",
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Dulles to Johannesburg on April 13th for the partner meeting on the 15th; the trip is on our Department of Labor grant. Please book Emirates through Dubai, I collect their miles and I'll cover anything above the cheapest fare myself. If Emirates isn't allowed, book what the policy allows.",
+  "trip": {
+    "traveller_name": "Lucia Ferraro",
+    "traveller_title": "Associate Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "JNB",
+    "travel_date": "2027-04-13",
+    "booking_date": "2027-03-15",
+    "business_starts": "2027-04-15 09:00",
+    "purpose": "Partner meeting in Johannesburg",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "US_GOVERNMENT",
+    "funding_source": "U.S. Department of Labor research grant",
+    "award_terms": "The grant's terms ask for no sponsor approval before travel.",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "Emirates",
+    "pays_difference": true,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "JNB",
+        "date": "2027-04-13",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "doha": {
+            "carrier": "QR",
+            "via": [
+              "DOH"
+            ],
+            "depart": "16:40",
+            "minutes": [
+              760,
+              500
+            ],
+            "layovers": [
+              140
+            ]
+          },
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:30",
+            "minutes": [
+              760,
+              495
+            ],
+            "layovers": [
+              135
+            ]
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "17:30",
+            "minutes": [
+              960
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "doha-economy",
+            "flight": "doha",
+            "cabin": "ECONOMY",
+            "fare_cents": 124000
+          },
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 128000
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 156000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "united-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FLY_AMERICA_US_CARRIER_REQUIRED",
+      "NATIONAL_CARRIER_REQUIRED"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "US_GOVERNMENT_PROCEDURE",
+      "USG_FUNDED_TRAVEL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        504,
+        506
+      ],
+      "sha256": "215e3b439fac607c5844b000cc12bb4ad6f9dc64ce78da160fa7426e077432b9",
+      "quote": "Per the Fly America Act, all air travel funded by the U.S. Government in which the origin or final destination is within the United States must be on a U.S.-flag air carrier, Open Skies carrier, or U.S. code share flight.",
+      "why": "federally funded travel to or from the U.S. on a U.S.-flag, Open Skies or code share flight"
+    },
+    {
+      "lines": [
+        507,
+        509
+      ],
+      "sha256": "b39628bee7007f23f034b2ed4f6fa3c5d06fbe54942a1242a9f3601be5a9ad05",
+      "quote": "Cost alone is not a justification for taking a foreign carrier",
+      "why": "cost alone does not justify a foreign carrier"
+    },
+    {
+      "lines": [
+        513,
+        517
+      ],
+      "sha256": "7830f9686cd33f10d4fad8f84b81e8244e742ffb2b1d6d785a1d429e0d6c4073",
+      "quote": "Valid Fly America Act exceptions include: o No US carrier flies to the final destination. o Flying on a US carrier would require at least two more plane changes than if a foreign carrier were used. o Flying on a US carrier would take at least 6 hours longer than if foreign carrier were used.",
+      "why": "the exceptions, among them a U.S. carrier at least 6 hours longer"
+    },
+    {
+      "lines": [
+        1065,
+        1066
+      ],
+      "sha256": "d8bcfb1535f1fc04d2327d468ee4f1dffc6c938b420a684ae51d1469dbb67426",
+      "quote": "Per the Fly America Act, all airfare funded by the U.S. Government must be booked on U.S. flag air carriers (\"Fly America Act\"), to the extent that service by such carriers is available. This includes tickets booked on",
+      "why": "the procedure restates the U.S.-flag carrier rule"
+    },
+    {
+      "lines": [
+        336,
+        338
+      ],
+      "sha256": "3b738285f58bed861fb89440ac70c7fcc7e641d0bbeb60adfccdf536bf743697",
+      "quote": "If travelers opt for alternative routing due to personal preferences, such as air carrier or layover duration or location, the traveler must pay the difference.",
+      "why": "a personal preference of carrier or layover is the traveller's to pay for"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 504-506: the grant pays, so a U.S.-flag carrier is required; Emirates is foreign, and no exception of lines 513-527 applies (United's nonstop is as fast as any). Paying the difference (lines 336-338) does not make a foreign carrier compliant: book the United nonstop."
+}

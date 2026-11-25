@@ -1,0 +1,163 @@
+{
+  "id": "marble-finch",
+  "category": "boundary_twin",
+  "overlays": [
+    "multi_leg",
+    "outside_air_section"
+  ],
+  "twin_of": "larkspur-tide",
+  "twin_fact": "Atlanta connection 200 or 199 minutes (U.S. carrier 360 or 359 minutes longer)",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "JFK to Nairobi on April 6th for the survey launch on the 8th; the trip is charged to our NSF grant. Economy please.",
+  "trip": {
+    "traveller_name": "Rita Szabo",
+    "traveller_title": "Senior Research Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "JFK",
+    "origin": "JFK",
+    "destination": "NBO",
+    "travel_date": "2027-04-06",
+    "booking_date": "2027-03-08",
+    "business_starts": "2027-04-08 09:00",
+    "purpose": "Household survey launch in Kenya",
+    "purpose_kind": "PROJECT_WORK",
+    "funding": "US_GOVERNMENT",
+    "funding_source": "U.S. National Science Foundation research grant",
+    "award_terms": "The grant's terms ask for no sponsor approval before travel.",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "JFK",
+        "destination": "NBO",
+        "date": "2027-04-06",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "kenya": {
+            "carrier": "KQ",
+            "depart": "11:00",
+            "minutes": [
+              900
+            ]
+          },
+          "atlanta": {
+            "carrier": "DL",
+            "via": [
+              "ATL"
+            ],
+            "depart": "11:00",
+            "minutes": [
+              140,
+              920
+            ],
+            "layovers": [
+              200
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "kenya-economy",
+            "flight": "kenya",
+            "cabin": "ECONOMY",
+            "fare_cents": 115000
+          },
+          {
+            "slot": "atlanta-economy",
+            "flight": "atlanta",
+            "cabin": "ECONOMY",
+            "fare_cents": 142000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "kenya-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FLY_AMERICA_EXCEPTION",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "US_GOVERNMENT_PROCEDURE",
+      "USG_FUNDED_TRAVEL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        504,
+        506
+      ],
+      "sha256": "215e3b439fac607c5844b000cc12bb4ad6f9dc64ce78da160fa7426e077432b9",
+      "quote": "Per the Fly America Act, all air travel funded by the U.S. Government in which the origin or final destination is within the United States must be on a U.S.-flag air carrier, Open Skies carrier, or U.S. code share flight.",
+      "why": "federally funded travel to or from the U.S. on a U.S.-flag, Open Skies or code share flight"
+    },
+    {
+      "lines": [
+        513,
+        517
+      ],
+      "sha256": "7830f9686cd33f10d4fad8f84b81e8244e742ffb2b1d6d785a1d429e0d6c4073",
+      "quote": "Valid Fly America Act exceptions include: o No US carrier flies to the final destination. o Flying on a US carrier would require at least two more plane changes than if a foreign carrier were used. o Flying on a US carrier would take at least 6 hours longer than if foreign carrier were used.",
+      "why": "the exceptions, among them a U.S. carrier at least 6 hours longer"
+    },
+    {
+      "lines": [
+        1081,
+        1081
+      ],
+      "sha256": "2626eca200df9fb5b0209084e5d6fec965ea312c83c7de2b341ad8cc8fdf8701",
+      "quote": "• Flying on a U.S. carrier would take at least 6 hours longer than if foreign carrier were used.",
+      "why": "the procedure restates the 6-hour exception"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Both leave JFK at 11:00; Delta through Atlanta takes 1,260 minutes against Kenya Airways' 900: exactly 6 hours longer, which is 'at least 6 hours longer' (line 517), a valid Fly America exception. The lowest economy fare, the Kenya Airways nonstop, is also the most direct and expeditious."
+}

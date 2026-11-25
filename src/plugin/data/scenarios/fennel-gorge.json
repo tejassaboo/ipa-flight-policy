@@ -1,0 +1,138 @@
+{
+  "id": "fennel-gorge",
+  "category": "easy",
+  "overlays": [
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Dulles to London Heathrow on March 2nd for the funder meeting on the 3rd at 2pm. I'd like premium economy, and I'll cover the extra over the economy fare out of my own pocket.",
+  "trip": {
+    "traveller_name": "Owen Castellano",
+    "traveller_title": "Director, Global Partnerships",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "LHR",
+    "travel_date": "2027-03-02",
+    "booking_date": "2027-02-01",
+    "business_starts": "2027-03-03 14:00",
+    "purpose": "Funder meeting in London",
+    "purpose_kind": "DONOR_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "PREMIUM_ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": true,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "LHR",
+        "date": "2027-03-02",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "british": {
+            "carrier": "BA",
+            "depart": "18:20",
+            "minutes": [
+              440
+            ]
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "17:45",
+            "minutes": [
+              440
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "british-economy",
+            "flight": "british",
+            "cabin": "ECONOMY",
+            "fare_cents": 69000
+          },
+          {
+            "slot": "british-premium",
+            "flight": "british",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 142000
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 72000
+          },
+          {
+            "slot": "united-premium",
+            "flight": "united",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 148000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "british-premium"
+    ],
+    "cabins": [
+      "PREMIUM_ECONOMY"
+    ],
+    "reason_codes": [
+      "TRAVELER_PAYS_DIFFERENCE",
+      "TRAVELER_PAYS_UPGRADE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        339,
+        341
+      ],
+      "sha256": "2199372b74ee42cbd142e1cfd0c2d89e7d63d815f6c1380f262ac93cb6f8d109",
+      "quote": "Upgraded classes of service (e.g., Economy Plus, Coach Elite, Coach Plus, Preferred Coach) airfare are not reimbursable. Upgrades to other-than-economy fare are permitted at the traveler's personal expense. Exceptions to this policy must be approved by the CFO.",
+      "why": "no upgraded class at IPA's cost; permitted at the traveller's expense; exceptions by the CFO"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Line 340: upgrades to other-than-economy fare are permitted at the traveler's personal expense, and the traveller pays the excess: book the lowest premium economy fare (British Airways; both nonstops are 440 minutes)."
+}

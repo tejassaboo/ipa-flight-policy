@@ -1,0 +1,177 @@
+{
+  "id": "basil-tern",
+  "category": "easy",
+  "overlays": [
+    "multi_leg",
+    "overnight",
+    "upgrade_not_taken"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book me from New York JFK to Nairobi on January 12th for the field team training that starts on the 15th. Economy is fine.",
+  "trip": {
+    "traveller_name": "Marcus Feld",
+    "traveller_title": "Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "JFK",
+    "origin": "JFK",
+    "destination": "NBO",
+    "travel_date": "2027-01-12",
+    "booking_date": "2026-12-01",
+    "business_starts": "2027-01-15 09:00",
+    "purpose": "Field team training in Nairobi",
+    "purpose_kind": "TRAINING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "JFK",
+        "destination": "NBO",
+        "date": "2027-01-12",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "kenya": {
+            "carrier": "KQ",
+            "depart": "11:30",
+            "minutes": [
+              900
+            ]
+          },
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:40",
+            "minutes": [
+              770,
+              300
+            ],
+            "layovers": [
+              140
+            ]
+          },
+          "amsterdam": {
+            "carrier": "KL",
+            "via": [
+              "AMS"
+            ],
+            "depart": "18:00",
+            "minutes": [
+              400,
+              495
+            ],
+            "layovers": [
+              960
+            ],
+            "stopovers": [
+              true
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "kenya-economy",
+            "flight": "kenya",
+            "cabin": "ECONOMY",
+            "fare_cents": 118000
+          },
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 129000
+          },
+          {
+            "slot": "amsterdam-economy",
+            "flight": "amsterdam",
+            "cabin": "ECONOMY",
+            "fare_cents": 133000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "kenya-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    },
+    {
+      "lines": [
+        159,
+        161
+      ],
+      "sha256": "56147349fb2353f7af4301b5747d6d0b89f05d4b9ba1d4477663abec1e4247d7",
+      "quote": "All domestic travel must be approved by the traveler's Assignment Supervisor. International travel must be approved by the Country Director (for Country Office staff) or appropriate Global Team Director (for Global Team staff).",
+      "why": "domestic travel: Assignment Supervisor; international: Country or Global Team Director"
+    },
+    {
+      "lines": [
+        347,
+        353
+      ],
+      "sha256": "8b86f97671899284e8059987aeb9e34831c2b64cef25307a1fd5048a0ed9436b",
+      "quote": "While travelling internationally a rest period (overnight layover) is permitted assuming all of the following conditions apply: o The scheduled flight time, including non-overnight stopovers and change of planes, is in excess of 14 hours; and o The layover may not exceed 24 hours, and o Travel is by a direct or usually traveled route, and o Travel is by coach class.2",
+      "why": "an international rest stop: over 14 hours, layover up to 24 hours, usual route, coach"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "International trip by a Global Team employee, approved by the Assignment Supervisor and the Global Team Director (lines 159-161). The Kenya Airways nonstop is the lowest economy fare and the most direct and expeditious. The KLM itinerary with a hotel night in Amsterdam would be a permitted rest stop (895 flying minutes, a 16-hour layover, lines 347-353), but the traveller did not ask for one and it costs more."
+}

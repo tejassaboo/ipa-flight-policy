@@ -1,0 +1,151 @@
+{
+  "id": "fir-cobble",
+  "category": "flag",
+  "overlays": [
+    "approval_required",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "ember-kite",
+    "amber-wharf"
+  ],
+  "ambiguity_note": "none: the Country Director's approval is required and missing; the text is clear",
+  "request": "Nairobi to Johannesburg on February 16th for the regional data quality workshop on the 17th. My supervisor has approved the trip.",
+  "trip": {
+    "traveller_name": "Wanjiku Kamau",
+    "traveller_title": "Data Quality Manager, Kenya",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "COUNTRY_OFFICE",
+    "home_airport": "NBO",
+    "origin": "NBO",
+    "destination": "JNB",
+    "travel_date": "2027-02-16",
+    "booking_date": "2027-01-25",
+    "business_starts": "2027-02-17 09:00",
+    "purpose": "Regional data quality workshop in Johannesburg",
+    "purpose_kind": "TRAINING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "NBO",
+        "destination": "JNB",
+        "date": "2027-02-16",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "kenya": {
+            "carrier": "KQ",
+            "depart": "08:30",
+            "minutes": [
+              240
+            ]
+          },
+          "springbok": {
+            "carrier": "SA",
+            "depart": "13:45",
+            "minutes": [
+              240
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "kenya-economy",
+            "flight": "kenya",
+            "cabin": "ECONOMY",
+            "fare_cents": 41000
+          },
+          {
+            "slot": "springbok-economy",
+            "flight": "springbok",
+            "cabin": "ECONOMY",
+            "fare_cents": 45500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "kenya-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "APPROVAL_REQUIRED"
+    ],
+    "approvers": [
+      "COUNTRY_DIRECTOR"
+    ],
+    "clauses": [
+      "POLICIES",
+      "PREPARING_FOR_TRAVEL",
+      "TRAVEL_APPROVAL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        115,
+        116
+      ],
+      "sha256": "2becb31d796892508d2345c0a22ee7733ece54dce98bde35686d86bc3c2b2fc8",
+      "quote": "All travel must be approved by the relevant supervisory authority as described in this policy prior to booking travel, including travel dates, proposed itinerary, and airfare costs.",
+      "why": "every trip is approved before booking"
+    },
+    {
+      "lines": [
+        159,
+        161
+      ],
+      "sha256": "56147349fb2353f7af4301b5747d6d0b89f05d4b9ba1d4477663abec1e4247d7",
+      "quote": "All domestic travel must be approved by the traveler's Assignment Supervisor. International travel must be approved by the Country Director (for Country Office staff) or appropriate Global Team Director (for Global Team staff).",
+      "why": "domestic travel: Assignment Supervisor; international: Country or Global Team Director"
+    },
+    {
+      "lines": [
+        659,
+        659
+      ],
+      "sha256": "1b84802b86c2bca7a432b24e43338aaf6854dda0e233125975c6bdd4067b9861",
+      "quote": "5. Obtain Assignment Supervisor approval of the selected itinerary.",
+      "why": "the Assignment Supervisor approves the selected itinerary"
+    },
+    {
+      "lines": [
+        686,
+        687
+      ],
+      "sha256": "7d63bb86434366a840596027b21cfb021a08d3f55811abfb005edd0aaf3a84bf",
+      "quote": "8. If additional approvals are required, forward the request to the appropriate individual(s) for approval.",
+      "why": "further approvals are forwarded to the right people"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 115-116: all travel is approved before booking; lines 159-161: international travel by Country Office staff must be approved by the Country Director. Only the Assignment Supervisor has signed (lines 686-687: further approvals are forwarded). Hold the lowest economy fare for the Country Director; the supervisor is not the approver this needs."
+}

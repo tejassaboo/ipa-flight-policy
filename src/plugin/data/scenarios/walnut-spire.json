@@ -1,0 +1,175 @@
+{
+  "id": "walnut-spire",
+  "category": "hidden_clause",
+  "overlays": [
+    "outside_air_section",
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Dulles to Nairobi on March 23rd for the baseline survey training on the 25th; it's billed to our National Science Foundation grant. Economy please.",
+  "trip": {
+    "traveller_name": "Ibrahim Diallo",
+    "traveller_title": "Research Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "NBO",
+    "travel_date": "2027-03-23",
+    "booking_date": "2027-02-22",
+    "business_starts": "2027-03-25 09:00",
+    "purpose": "Baseline survey training in Kenya",
+    "purpose_kind": "TRAINING",
+    "funding": "US_GOVERNMENT",
+    "funding_source": "U.S. National Science Foundation research grant",
+    "award_terms": "The grant's terms ask for no sponsor approval before travel.",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "NBO",
+        "date": "2027-03-23",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:15",
+            "minutes": [
+              780,
+              290
+            ],
+            "layovers": [
+              125
+            ]
+          },
+          "doha": {
+            "carrier": "QR",
+            "via": [
+              "DOH"
+            ],
+            "depart": "16:40",
+            "minutes": [
+              760,
+              330
+            ],
+            "layovers": [
+              150
+            ]
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "17:55",
+            "minutes": [
+              945
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 119000
+          },
+          {
+            "slot": "doha-economy",
+            "flight": "doha",
+            "cabin": "ECONOMY",
+            "fare_cents": 123000
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 152000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "united-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FLY_AMERICA_US_CARRIER_REQUIRED",
+      "LOWEST_FARE",
+      "NATIONAL_CARRIER_REQUIRED"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "US_GOVERNMENT_PROCEDURE",
+      "USG_FUNDED_TRAVEL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        504,
+        506
+      ],
+      "sha256": "215e3b439fac607c5844b000cc12bb4ad6f9dc64ce78da160fa7426e077432b9",
+      "quote": "Per the Fly America Act, all air travel funded by the U.S. Government in which the origin or final destination is within the United States must be on a U.S.-flag air carrier, Open Skies carrier, or U.S. code share flight.",
+      "why": "federally funded travel to or from the U.S. on a U.S.-flag, Open Skies or code share flight"
+    },
+    {
+      "lines": [
+        507,
+        509
+      ],
+      "sha256": "b39628bee7007f23f034b2ed4f6fa3c5d06fbe54942a1242a9f3601be5a9ad05",
+      "quote": "Cost alone is not a justification for taking a foreign carrier",
+      "why": "cost alone does not justify a foreign carrier"
+    },
+    {
+      "lines": [
+        1065,
+        1066
+      ],
+      "sha256": "d8bcfb1535f1fc04d2327d468ee4f1dffc6c938b420a684ae51d1469dbb67426",
+      "quote": "Per the Fly America Act, all airfare funded by the U.S. Government must be booked on U.S. flag air carriers (\"Fly America Act\"), to the extent that service by such carriers is available. This includes tickets booked on",
+      "why": "the procedure restates the U.S.-flag carrier rule"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 504-506 (U.S. Government-funded Travel, not Airfare): federally funded travel from the U.S. is on a U.S.-flag carrier; cost alone does not justify Emirates or Qatar (lines 508-509), and United's nonstop is the quickest itinerary, so no exception applies. Book United."
+}

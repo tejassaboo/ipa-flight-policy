@@ -1,0 +1,157 @@
+{
+  "id": "elm-thistle",
+  "category": "flag",
+  "overlays": [
+    "approval_required",
+    "date_arithmetic",
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "pewter-lake",
+    "cobalt-reed"
+  ],
+  "ambiguity_note": "none: the CFO's approval of the medical exception is required and not yet on file; the text is clear",
+  "request": "Dulles to Johannesburg on April 20th for the partner review on the 22nd. I need premium economy for a knee condition; my doctor's note is on file and I've asked the CFO to approve it, but she hasn't answered yet.",
+  "trip": {
+    "traveller_name": "Samira Haddad",
+    "traveller_title": "Senior Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "JNB",
+    "travel_date": "2027-04-20",
+    "booking_date": "2027-03-22",
+    "business_starts": "2027-04-22 09:00",
+    "purpose": "Partner review in Johannesburg",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "PREMIUM_ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "2026-12-01",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "JNB",
+        "date": "2027-04-20",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "united": {
+            "carrier": "UA",
+            "depart": "17:30",
+            "minutes": [
+              960
+            ]
+          },
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:30",
+            "minutes": [
+              760,
+              495
+            ],
+            "layovers": [
+              135
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 136000
+          },
+          {
+            "slot": "united-premium",
+            "flight": "united",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 254000
+          },
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 142000
+          },
+          {
+            "slot": "dubai-premium",
+            "flight": "dubai",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 265000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "united-premium"
+    ],
+    "cabins": [
+      "PREMIUM_ECONOMY"
+    ],
+    "reason_codes": [
+      "APPROVAL_REQUIRED",
+      "MEDICAL_NEED"
+    ],
+    "approvers": [
+      "CHIEF_FINANCIAL_OFFICER"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        339,
+        341
+      ],
+      "sha256": "2199372b74ee42cbd142e1cfd0c2d89e7d63d815f6c1380f262ac93cb6f8d109",
+      "quote": "Upgraded classes of service (e.g., Economy Plus, Coach Elite, Coach Plus, Preferred Coach) airfare are not reimbursable. Upgrades to other-than-economy fare are permitted at the traveler's personal expense. Exceptions to this policy must be approved by the CFO.",
+      "why": "no upgraded class at IPA's cost; permitted at the traveller's expense; exceptions by the CFO"
+    },
+    {
+      "lines": [
+        344,
+        346
+      ],
+      "sha256": "89c1f09209db9ce265880f9dbf3833c30ceb93c9092dc994ee063a6acbc4b894",
+      "quote": "5.44.1. Exceptions to the use of upgraded classes of services may be approved when requested for medical reasons and when accompanied by a signed note from the traveler's doctor. This medical note must be no more than one year old and must be on file for each business trip.",
+      "why": "a medical exception to upgraded classes with a signed doctor's note under a year old"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 344-346: the medical exception 'may be approved' when requested with a signed doctor's note no more than a year old (dated 2026-12-01, 140 days before the flight); line 341: exceptions must be approved by the CFO, who has not yet answered. Hold the lowest premium economy fare (the United nonstop) for the CFO; approval required, not 'no compliant offer'."
+}

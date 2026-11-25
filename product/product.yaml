@@ -1,0 +1,13 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "One flight request, a research nonprofit's real travel manual: book it, refuse it, or hold it for sign-off"
+summary: "An agent handles one traveller's flight request under the Innovations for Poverty Action Global Travel Manual (Version 1, October 2021), read verbatim. It reads the trip record, searches a simulated flight world (real airports and airlines, synthetic schedules and fares) and submits a decision with the offer, cabin, reason, approver and manual section. A deterministic verifier rebuilds the offers and the manual's answer itself and checks every field. Thirty-two cases cover the lowest changeable economy fare, rest stops on both sides of 14 hours and 24 hours, the Fly America Act and its 6-hour exception, Open Skies carriers, medical exceptions awaiting the CFO, approvals from the wrong person, spouses and personal side trips, and the manual's own unclear words."
+highlights:
+  - "The verbatim manual: no paraphrase, no rules restated in the task"
+  - "Exact boundaries: 840 against 841 minutes, a 1,440 against 1,445-minute layover, 359 against 360 minutes longer"
+  - "Unclear clauses become holds for approval, each once, with clear twins on both sides"
+  - "Fully offline: a hash-seeded flight world with unguessable offer ids"
+steps:
+  - "Name a case, for example amber-wharf, with the traveller's request"
+  - "The agent reads the trip record and searches flights on the trip's route and date"
+  - "It submits BOOK, REFUSE or FLAG_FOR_APPROVAL with the offer, cabin, reason, approver and section"
+  - "The verifier recomputes the manual's answer and checks every field"

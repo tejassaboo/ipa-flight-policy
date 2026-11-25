@@ -1,0 +1,164 @@
+{
+  "id": "hazel-pond",
+  "category": "flag",
+  "overlays": [
+    "unclear_phrase",
+    "multi_leg"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "dune-sparrow",
+    "larkspur-tide"
+  ],
+  "ambiguity_note": {
+    "phrase": "via the most direct and expeditious route",
+    "readings": [
+      "the lowest fare that meets the business need decides, and a one-stop routing that lands in time qualifies: book the Miami connection",
+      "the fare must be on the most direct and expeditious route: book the Avianca nonstop"
+    ]
+  },
+  "request": "Washington Dulles to Bogota on February 24th for the partner meeting the next morning. Economy please.",
+  "trip": {
+    "traveller_name": "Daniel Park",
+    "traveller_title": "Research Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "BOG",
+    "travel_date": "2027-02-24",
+    "booking_date": "2027-01-25",
+    "business_starts": "2027-02-25 09:00",
+    "purpose": "Partner meeting in Bogota",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "BOG",
+        "date": "2027-02-24",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "avianca": {
+            "carrier": "AV",
+            "depart": "08:05",
+            "minutes": [
+              330
+            ]
+          },
+          "miami": {
+            "carrier": "AA",
+            "via": [
+              "MIA"
+            ],
+            "depart": "07:00",
+            "minutes": [
+              165,
+              215
+            ],
+            "layovers": [
+              100
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "avianca-economy",
+            "flight": "avianca",
+            "cabin": "ECONOMY",
+            "fare_cents": 52000
+          },
+          {
+            "slot": "miami-economy",
+            "flight": "miami",
+            "cabin": "ECONOMY",
+            "fare_cents": 39500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "avianca-economy",
+      "miami-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "APPROVAL_REQUIRED",
+      "UNCLEAR_POLICY_TEXT"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "CHIEF_FINANCIAL_OFFICER",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": "via the most direct and expeditious route"
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    },
+    {
+      "lines": [
+        888,
+        889
+      ],
+      "sha256": "8f063a477bc896ca2ddb749c4c00de26b8c9796d59e4821cc2c6c7962054ec52",
+      "quote": "Book using the most direct, expeditious and economical fare.",
+      "why": "the reimbursable-expenses table repeats the airfare standard"
+    },
+    {
+      "lines": [
+        654,
+        656
+      ],
+      "sha256": "45cc3923adbb943847ed7d7f25ec7f5c86c46e1ee94c35406e7e46ef76b75adb",
+      "quote": "ensuring that the selected flight is the lowest economy fare via the most direct and expeditious route",
+      "why": "the booking procedure repeats the airfare standard"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 334-336: 'the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route'. The American connection through Miami is $125 cheaper but takes 480 minutes against the Avianca nonstop's 330; both land the day before the meeting. On one reading the route words only qualify the lowest fare (book Miami); on the other the fare must be on the most direct and expeditious route (book the nonstop). Hold either."
+}

@@ -1,0 +1,153 @@
+{
+  "id": "amber-wharf",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I need to fly from New York LaGuardia to Chicago on December 8th for the donor meeting on the 9th at 9am. Economy, the cheapest seat is fine.",
+  "trip": {
+    "traveller_name": "Priya Raman",
+    "traveller_title": "Associate Director, Development",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "LGA",
+    "origin": "LGA",
+    "destination": "ORD",
+    "travel_date": "2026-12-08",
+    "booking_date": "2026-11-24",
+    "business_starts": "2026-12-09 09:00",
+    "purpose": "Donor meeting in Chicago",
+    "purpose_kind": "DONOR_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "LGA",
+        "destination": "ORD",
+        "date": "2026-12-08",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "early": {
+            "carrier": "AA",
+            "depart": "06:30"
+          },
+          "mid": {
+            "carrier": "UA",
+            "depart": "08:15"
+          },
+          "noon": {
+            "carrier": "DL",
+            "depart": "11:40"
+          },
+          "late": {
+            "carrier": "AA",
+            "depart": "17:05"
+          }
+        },
+        "offers": [
+          {
+            "slot": "early-economy",
+            "flight": "early",
+            "cabin": "ECONOMY",
+            "fare_cents": 18900,
+            "seats": false
+          },
+          {
+            "slot": "mid-economy",
+            "flight": "mid",
+            "cabin": "ECONOMY",
+            "fare_cents": 21400
+          },
+          {
+            "slot": "noon-economy",
+            "flight": "noon",
+            "cabin": "ECONOMY",
+            "fare_cents": 23600
+          },
+          {
+            "slot": "late-economy",
+            "flight": "late",
+            "cabin": "ECONOMY",
+            "fare_cents": 25200,
+            "refundable": true
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "mid-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    },
+    {
+      "lines": [
+        115,
+        116
+      ],
+      "sha256": "2becb31d796892508d2345c0a22ee7733ece54dce98bde35686d86bc3c2b2fc8",
+      "quote": "All travel must be approved by the relevant supervisory authority as described in this policy prior to booking travel, including travel dates, proposed itinerary, and airfare costs.",
+      "why": "every trip is approved before booking"
+    },
+    {
+      "lines": [
+        159,
+        161
+      ],
+      "sha256": "56147349fb2353f7af4301b5747d6d0b89f05d4b9ba1d4477663abec1e4247d7",
+      "quote": "All domestic travel must be approved by the traveler's Assignment Supervisor. International travel must be approved by the Country Director (for Country Office staff) or appropriate Global Team Director (for Global Team staff).",
+      "why": "domestic travel: Assignment Supervisor; international: Country or Global Team Director"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "A domestic trip, approved by the Assignment Supervisor (lines 159-161). Every flight is a nonstop of the same length, so the lowest economy fare is also on the most direct and expeditious route (lines 334-336). The cheaper 06:30 fare is sold out; the refundable fare is dearer."
+}

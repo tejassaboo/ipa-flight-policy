@@ -1,0 +1,121 @@
+{
+  "id": "cedar-flint",
+  "category": "refusal",
+  "overlays": [
+    "personal_travel"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "After the Nairobi workshop I'm taking a few days of holiday with friends in Johannesburg. Can IPA book my flight from Nairobi to Johannesburg on March 3rd, since I'm already out here for work?",
+  "trip": {
+    "traveller_name": "Amara Nwosu",
+    "traveller_title": "Research Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "NBO",
+    "destination": "JNB",
+    "travel_date": "2027-03-03",
+    "booking_date": "2027-02-10",
+    "business_starts": "",
+    "purpose": "Holiday with friends in Johannesburg after the Nairobi workshop",
+    "purpose_kind": "PERSONAL",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "NBO",
+        "destination": "JNB",
+        "date": "2027-03-03",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "kenya": {
+            "carrier": "KQ",
+            "depart": "08:30",
+            "minutes": [
+              240
+            ]
+          },
+          "springbok": {
+            "carrier": "SA",
+            "depart": "13:45",
+            "minutes": [
+              240
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "kenya-economy",
+            "flight": "kenya",
+            "cabin": "ECONOMY",
+            "fare_cents": 41000
+          },
+          {
+            "slot": "springbok-economy",
+            "flight": "springbok",
+            "cabin": "ECONOMY",
+            "fare_cents": 45500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "OUTSIDE_POLICY_SCOPE",
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "POLICIES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        388,
+        394
+      ],
+      "sha256": "476687f4f550d6e080b3f0e8ef684043f2baf0460d04f099965e93042bf08456",
+      "quote": "Personal travel booked in conjunction with or in association with work-related travel is the responsibility of the employee. IPA will not reimburse for personal travel expenses when personal travel is made in conjunction with work-related travel. Travelers are required to pay directly any incremental costs for airline tickets, hotel accommodations and other expenses incurred relating to personal travel. Travelers are expected to demonstrate the cost difference resulting from modifying a trip for personal reasons, and under such circumstances the traveler is responsible for the difference.",
+      "why": "personal travel is the employee's; the traveller pays incremental costs"
+    },
+    {
+      "lines": [
+        128,
+        129
+      ],
+      "sha256": "24ad8bec5de7a93bce7a9d42bf4f3bc1bccc30bd0a6b23079b55f4f33ac95314",
+      "quote": "IPA will reimburse employees for all reasonable and necessary expenses while traveling on authorized business",
+      "why": "IPA pays for travel on authorized business"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 388-390: personal travel booked in conjunction with work-related travel is the employee's responsibility, and IPA will not reimburse it. A holiday flight is personal: IPA buys no ticket."
+}

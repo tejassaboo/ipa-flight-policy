@@ -1,0 +1,151 @@
+{
+  "id": "russet-brook",
+  "category": "multi_rule",
+  "overlays": [
+    "personal_travel"
+  ],
+  "twin_of": "quill-harbor",
+  "twin_fact": "the traveller will not pay the extra for United, or pays it",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Reagan National to San Francisco on February 3rd for the evidence summit on the 4th. Please put me on United, I collect their miles, but I can't pay anything extra out of my own pocket. If United isn't possible, book what the policy allows.",
+  "trip": {
+    "traveller_name": "Tom Reilly",
+    "traveller_title": "Policy Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "DCA",
+    "origin": "DCA",
+    "destination": "SFO",
+    "travel_date": "2027-02-03",
+    "booking_date": "2027-01-11",
+    "business_starts": "2027-02-04 09:00",
+    "purpose": "Evidence summit in San Francisco",
+    "purpose_kind": "CONFERENCE",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "United Airlines",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "DCA",
+        "destination": "SFO",
+        "date": "2027-02-03",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "american": {
+            "carrier": "AA",
+            "depart": "08:00"
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "09:15"
+          },
+          "evening": {
+            "carrier": "AA",
+            "depart": "18:30"
+          }
+        },
+        "offers": [
+          {
+            "slot": "american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 34200
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 38900
+          },
+          {
+            "slot": "evening-economy",
+            "flight": "evening",
+            "cabin": "ECONOMY",
+            "fare_cents": 35600
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "american-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE",
+      "LOYALTY_PROGRAM_PREFERENCE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        360,
+        361
+      ],
+      "sha256": "ed1012f7660368236c69fc59da337194d48087e7955f08cf3e8918c994959708",
+      "quote": "participation in these programs must not influence flight selection",
+      "why": "frequent flyer programmes must not steer the flight choice"
+    },
+    {
+      "lines": [
+        365,
+        365
+      ],
+      "sha256": "d760e5e01239f1c73c9f547e739f41d7c9b7998f2ab72b840373b2631cdff7b9",
+      "quote": "when doing so would result in incremental cost to IPA beyond the lowest available economy fare.",
+      "why": "... at a cost beyond the lowest available economy fare"
+    },
+    {
+      "lines": [
+        336,
+        338
+      ],
+      "sha256": "3b738285f58bed861fb89440ac70c7fcc7e641d0bbeb60adfccdf536bf743697",
+      "quote": "If travelers opt for alternative routing due to personal preferences, such as air carrier or layover duration or location, the traveler must pay the difference.",
+      "why": "a personal preference of carrier or layover is the traveller's to pay for"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 360-365: frequent flyer programmes must not influence flight selection at a cost to IPA beyond the lowest available economy fare, and the traveller will not pay the difference (lines 336-338): the American 08:00 nonstop at the lowest fare."
+}

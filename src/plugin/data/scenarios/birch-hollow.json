@@ -1,0 +1,148 @@
+{
+  "id": "birch-hollow",
+  "category": "refusal",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Could you book my wife Leah from Dulles to Nairobi on January 26th too? She'd like to see Kenya and go on a safari while I'm at the field office.",
+  "trip": {
+    "traveller_name": "Leah Brandt",
+    "traveller_title": "Spouse of Tomas Brandt, Director of Research Operations",
+    "passenger": "SPOUSE",
+    "accompanies": "Tomas Brandt, Director of Research Operations",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "NBO",
+    "travel_date": "2027-01-26",
+    "booking_date": "2026-12-29",
+    "business_starts": "",
+    "purpose": "Sightseeing and a safari while her husband works at the Nairobi office",
+    "purpose_kind": "PERSONAL",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "NBO",
+        "date": "2027-01-26",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dubai": {
+            "carrier": "EK",
+            "via": [
+              "DXB"
+            ],
+            "depart": "10:15",
+            "minutes": [
+              780,
+              290
+            ],
+            "layovers": [
+              125
+            ]
+          },
+          "doha": {
+            "carrier": "QR",
+            "via": [
+              "DOH"
+            ],
+            "depart": "16:40",
+            "minutes": [
+              760,
+              330
+            ],
+            "layovers": [
+              150
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "dubai-economy",
+            "flight": "dubai",
+            "cabin": "ECONOMY",
+            "fare_cents": 124000
+          },
+          {
+            "slot": "doha-economy",
+            "flight": "doha",
+            "cabin": "ECONOMY",
+            "fare_cents": 131000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "COMPANION_NOT_COVERED",
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "POLICIES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        142,
+        146
+      ],
+      "sha256": "b8498e2f005e5129e05b767846bdc28654e11a0b51f89df8d5d4aaba71cc82fa",
+      "quote": "Travel expenses that meet the requirements set forth in this Global Travel Manual incurred by a spouse or child(ren) under the age of 18 accompanying an employee on business will be reimbursed only when there is a bona fide business purpose for the travel of the spouse and/or child(ren), the business purpose is documented in the travel request, and the request is approved by the budget-holder.",
+      "why": "a spouse's travel only with a bona fide business purpose, documented, budget-holder approved"
+    },
+    {
+      "lines": [
+        388,
+        394
+      ],
+      "sha256": "476687f4f550d6e080b3f0e8ef684043f2baf0460d04f099965e93042bf08456",
+      "quote": "Personal travel booked in conjunction with or in association with work-related travel is the responsibility of the employee. IPA will not reimburse for personal travel expenses when personal travel is made in conjunction with work-related travel. Travelers are required to pay directly any incremental costs for airline tickets, hotel accommodations and other expenses incurred relating to personal travel. Travelers are expected to demonstrate the cost difference resulting from modifying a trip for personal reasons, and under such circumstances the traveler is responsible for the difference.",
+      "why": "personal travel is the employee's; the traveller pays incremental costs"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 142-146: a spouse's travel is reimbursed only with a bona fide business purpose for it; sightseeing is none, so IPA buys no ticket. The trip approvals on file are the employee's."
+}

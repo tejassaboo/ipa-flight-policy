@@ -1,0 +1,159 @@
+{
+  "id": "alder-crane",
+  "category": "distractor",
+  "overlays": [
+    "date_arithmetic"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Something came up: I need New York LaGuardia to Atlanta on December 7th for a partner meeting on the 8th. I know it's late to book. I'll carry two survey tablets in my hand luggage.",
+  "trip": {
+    "traveller_name": "Chris Adeyemi",
+    "traveller_title": "Field Coordinator",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "LGA",
+    "origin": "LGA",
+    "destination": "ATL",
+    "travel_date": "2026-12-07",
+    "booking_date": "2026-12-03",
+    "business_starts": "2026-12-08 09:00",
+    "purpose": "Partner meeting in Atlanta",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "LGA",
+        "destination": "ATL",
+        "date": "2026-12-07",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "morning": {
+            "carrier": "DL",
+            "depart": "07:30"
+          },
+          "american": {
+            "carrier": "AA",
+            "depart": "10:00"
+          },
+          "afternoon": {
+            "carrier": "DL",
+            "depart": "15:45"
+          }
+        },
+        "offers": [
+          {
+            "slot": "morning-economy",
+            "flight": "morning",
+            "cabin": "ECONOMY",
+            "fare_cents": 26800
+          },
+          {
+            "slot": "american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 28100
+          },
+          {
+            "slot": "afternoon-economy",
+            "flight": "afternoon",
+            "cabin": "ECONOMY",
+            "fare_cents": 25900
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "afternoon-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    },
+    {
+      "lines": [
+        159,
+        161
+      ],
+      "sha256": "56147349fb2353f7af4301b5747d6d0b89f05d4b9ba1d4477663abec1e4247d7",
+      "quote": "All domestic travel must be approved by the traveler's Assignment Supervisor. International travel must be approved by the Country Director (for Country Office staff) or appropriate Global Team Director (for Global Team staff).",
+      "why": "domestic travel: Assignment Supervisor; international: Country or Global Team Director"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        354,
+        355
+      ],
+      "quote": "Whenever possible, travelers must make air travel reservations as far in advance of travel as practical in order to obtain reasonable pricing.",
+      "why": "booking early 'whenever possible', not a ban"
+    },
+    {
+      "lines": [
+        635,
+        636
+      ],
+      "quote": "several weeks in advance of departure",
+      "why": "a procedural pointer, not a ban on late booking"
+    },
+    {
+      "lines": [
+        492,
+        494
+      ],
+      "quote": "all IPA equipment must be transported in carry-on baggage",
+      "why": "a baggage rule, not a fare rule"
+    }
+  ],
+  "design_notes": "Four days ahead: lines 354-355 ask for booking as far ahead as practical 'whenever possible', which does not bar a late booking; the tablets go in hand luggage (lines 492-494), a baggage rule. The lowest economy fare, Delta 15:45, lands the evening before the meeting."
+}

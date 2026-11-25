@@ -1,0 +1,128 @@
+{
+  "id": "opal-heath",
+  "category": "boundary_twin",
+  "overlays": [
+    "dearer_option"
+  ],
+  "twin_of": "nectar-ridge",
+  "twin_fact": "the meeting starts at 14:00 the day of the flight or at 09:00 the next day",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Washington Dulles to Mexico City on January 27th; the partner meeting is that afternoon at 2. Economy please.",
+  "trip": {
+    "traveller_name": "Arjun Mehta",
+    "traveller_title": "Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "MEX",
+    "travel_date": "2027-01-27",
+    "booking_date": "2027-01-04",
+    "business_starts": "2027-01-27 14:00",
+    "purpose": "Partner meeting in Mexico City",
+    "purpose_kind": "PARTNER_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "MEX",
+        "date": "2027-01-27",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "united": {
+            "carrier": "UA",
+            "depart": "07:10",
+            "minutes": [
+              285
+            ]
+          },
+          "aeromexico": {
+            "carrier": "AM",
+            "depart": "15:50",
+            "minutes": [
+              285
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 37200
+          },
+          {
+            "slot": "aeromexico-economy",
+            "flight": "aeromexico",
+            "cabin": "ECONOMY",
+            "fare_cents": 31800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "united-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "BUSINESS_NEED_TIMING",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The cheaper Aeromexico flight lands at 19:35, after the 14:00 meeting, so it does not meet the business need '(including arrival and departure times)' (lines 334-335). The United nonstop lands at 10:55: the lowest economy fare that meets the need."
+}

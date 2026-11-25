@@ -1,0 +1,16 @@
+{
+  "id": "ipa-flight-policy",
+  "name": "IPA Global Travel Manual Flight Booking",
+  "slug": "ipa-travel",
+  "title": "Innovations for Poverty Action (IPA) Global Travel Manual for international travel and U.S. domestic travel (Version 1, 1 October 2021)",
+  "frozen_file": "ipa-travel_policy.txt",
+  "sha256": "593624301807b362c872fbd2333558f8aa3e28f0a07f3cb53cb2435f3fdffac8",
+  "raw_pdf_sha256": "41bab01760bbc0b5ad3fb7fe98409212c8df867c85a2aabcd52b96267a6ff167",
+  "words": 10801,
+  "lines": 1109,
+  "source": "https://fr.poverty-action.org/sites/default/files/publications/IPA-Global-Travel-Manual-October-2021.pdf",
+  "frozen_on": "2026-11-24",
+  "scenario_count": 32,
+  "currency": "USD",
+  "background_offers": 0
+}

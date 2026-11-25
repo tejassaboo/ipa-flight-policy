@@ -1,0 +1,161 @@
+{
+  "id": "pewter-lake",
+  "category": "multi_rule",
+  "overlays": [
+    "dearer_option",
+    "date_arithmetic"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "JFK to Nairobi on March 16th for the research week starting on the 18th. I need premium economy for a back condition; my doctor's note is on file and the CFO has approved the exception.",
+  "trip": {
+    "traveller_name": "Dana Whitcomb",
+    "traveller_title": "Senior Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "JFK",
+    "origin": "JFK",
+    "destination": "NBO",
+    "travel_date": "2027-03-16",
+    "booking_date": "2027-02-15",
+    "business_starts": "2027-03-18 09:00",
+    "purpose": "Research week at the Nairobi office",
+    "purpose_kind": "PROJECT_WORK",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "PREMIUM_ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "2026-09-30",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      },
+      {
+        "role": "CHIEF_FINANCIAL_OFFICER",
+        "name": "Ruth Alvarez",
+        "subject": "UPGRADE_EXCEPTION"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "JFK",
+        "destination": "NBO",
+        "date": "2027-03-16",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "kenya": {
+            "carrier": "KQ",
+            "depart": "11:30",
+            "minutes": [
+              900
+            ]
+          },
+          "amsterdam": {
+            "carrier": "KL",
+            "via": [
+              "AMS"
+            ],
+            "depart": "17:20",
+            "minutes": [
+              400,
+              500
+            ],
+            "layovers": [
+              110
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "kenya-economy",
+            "flight": "kenya",
+            "cabin": "ECONOMY",
+            "fare_cents": 118000
+          },
+          {
+            "slot": "kenya-premium",
+            "flight": "kenya",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 229000
+          },
+          {
+            "slot": "amsterdam-economy",
+            "flight": "amsterdam",
+            "cabin": "ECONOMY",
+            "fare_cents": 126000
+          },
+          {
+            "slot": "amsterdam-premium",
+            "flight": "amsterdam",
+            "cabin": "PREMIUM_ECONOMY",
+            "fare_cents": 245000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "kenya-premium"
+    ],
+    "cabins": [
+      "PREMIUM_ECONOMY"
+    ],
+    "reason_codes": [
+      "MEDICAL_NEED",
+      "POLICY_EXCEPTION_APPROVED"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "CHIEF_FINANCIAL_OFFICER",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        339,
+        341
+      ],
+      "sha256": "2199372b74ee42cbd142e1cfd0c2d89e7d63d815f6c1380f262ac93cb6f8d109",
+      "quote": "Upgraded classes of service (e.g., Economy Plus, Coach Elite, Coach Plus, Preferred Coach) airfare are not reimbursable. Upgrades to other-than-economy fare are permitted at the traveler's personal expense. Exceptions to this policy must be approved by the CFO.",
+      "why": "no upgraded class at IPA's cost; permitted at the traveller's expense; exceptions by the CFO"
+    },
+    {
+      "lines": [
+        344,
+        346
+      ],
+      "sha256": "89c1f09209db9ce265880f9dbf3833c30ceb93c9092dc994ee063a6acbc4b894",
+      "quote": "5.44.1. Exceptions to the use of upgraded classes of services may be approved when requested for medical reasons and when accompanied by a signed note from the traveler's doctor. This medical note must be no more than one year old and must be on file for each business trip.",
+      "why": "a medical exception to upgraded classes with a signed doctor's note under a year old"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 344-346: an exception to upgraded classes for medical reasons, with a signed doctor's note no more than a year old (dated 2026-09-30: 168 days before the flight) on file; line 341: approved by the CFO, whose approval is on file. The lowest premium economy fare, on the Kenya Airways nonstop."
+}

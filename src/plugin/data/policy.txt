@@ -1,0 +1,1109 @@
+IPA Global Travel
+Manual
+
+for international travel and U.S. domestic travel
+Revision Date: October 1, 2021
+Version: 1
+Release Date: October 1, 2021
+
+Table of Contents
+IPA Global Travel Policy ................................ ................................ ................................ ........................... 2
+Travel Approval 4
+Travel Advances 5
+Travel Expenses 6
+Per Diem 7
+Safety & Security 8
+Travel Documentation 8
+Airfare 9
+Ground Transportation 11
+Lodging 11
+Communication 12
+Property and IT Equipment 12
+U.S. Government-funded Travel 13
+Procedure 1: Preparing for Travel ................................ ................................ ................................ ........ 16
+Procedure 2: During and After Travel ................................ ................................ ................................ .. 21
+Procedure 3: Reimbursable Travel Expenses................................ ................................ ...................... 23
+Procedure 4: US Government-funded Travel ................................ ................................ ...................... 25
+Annex 1: Travel Agency Request Form ................................ ................................ ................................ 27
+Annex 2: Travel Request Form ................................ ................................ ................................ ............. 27
+Annex 3: International SOS Basics and Card ................................ ................................ ....................... 27
+Annex 4: Trip Report Template ................................ ................................ ................................ ............ 27
+Annex 5: Physical Fitness Certification- assignments under 60 days ................................ ............... 27
+Annex 6: Physical Fitness Certification- assignments over 60 days ................................ .................. 27
+Annex 7: Per Diem Calculator ................................ ................................ ................................ ............... 27
+Annex 8: Traveler Resources ................................ ................................ ................................ ................ 27
+Annex 9: Travel Expense Receipt ................................ ................................ ................................ ......... 27
+
+IPA Global Travel Policy
+1. Purpose & Scope
+Employees of IPA travel frequently and it is the goal of IPA to ensure that travelers travel safely, in
+compliance with donor and client requirements, and at reasonable cost.
+The purpose of this travel policy is to provide a comprehensive statement of IPA's policies for
+international travel and domestic U.S. travel managed by or made by IPA for business purposes
+and to describe the systems, logistics, and documentation that accompany this policy.
+Not all parts of this policy may apply to IPA Country Offices; specifically, sections on travel
+expenses, travel advances, and per diem may not apply to in-country travel and international
+travel funded by a Country Office or funding agreements managed by the Country Office.
+Travelers whose in-country travel or international travel is funded by a Country Office or by
+funding agreements managed by the Country Office should consult the Country Office's travel
+policies or the funding agreement.
+2. Applicability
+This travel policy and accompanying procedures apply to all IPA staff that travel domestically
+within the U.S. or internationally, any employee whose travel (international or domestic) is funded
+through Overhead or Unrestricted, and to U.S.-paid IPA employees that seek reimbursement of
+travel expenses from IPA Global Finance. This travel policy and accompanying procedures also
+applies to non-employees who travel for the purpose of IPA business, which may include
+consultants, Principal Investigators (PIs), and student volunteers.
+This travel policy does not supersede policies related to travel allowances for relocation of
+international staff (U.S.-paid expatriate or third country national (TCN)) based internationally
+which are described in the IPA Employee Handbook or other Global Human Resource policies.
+Travel funded by a Country Office or by a project follows the travel expense policies of the
+Country Office and/or project funding the travel, which must be equivalent to or more restrictive
+than the policies set forth in this Global Travel Manual. Similarly, travelers seeking reimbursement
+of travel expenses by a Country Office must follow the office's process for travel expense
+reimbursement.
+3. Roles & Responsibilities
+All IPA travelers are responsible for complying with the applicable policies and procedures in this
+Global Travel Manual. In this policy the use of the word "traveler" refers to IPA employees and
+independent consultants (ICs), Principal Investigators (PIs), interns, volunteers, or other non-employees traveling on behalf of IPA; whereas the use of the word "employee" refers uniquely to
+IPA employees.
+Assignment Supervisors are responsible for ensuring that travel, including airfare and advances, is
+approved prior to travel. Assignment Supervisors are also responsible for ensuring that travel
+expenditures related to the trip meet the criteria described in this manu al and that required
+documentation is submitted to support those expenses. The Assignment Supervisor is an
+individual with administrative and budgetary oversight of the assignment and may be the
+
+employee's direct supervisor or the budget-holder of the Country Office or project that the
+traveler will support.
+IPA's contracted Travel Agency is responsible for ensuring the lowest fare class that best meets
+assignment needs for all bookings while remaining in compliance with IPA travel requirements
+and U.S. Government travel regulations where applicable, including ensuring reasonable prices.
+The Global Operations team is responsible for management of IPA's relationship with the
+contracted travel agency. Global Operations is also responsible for establishing and updating IPA
+travel policies in conjunction with internal stakeholders, overseeing IPA's compliance with this
+Travel Manual, and for providing employee training on this material.
+4. Policies
+The following principles guide IPA travel planning:
+o Efficiency and Impact: IPA encourages staff to be thoughtful about how travel can best
+advance our collective agenda and impact on the ground. Consider multiple objectives
+when planning a trip - how can we support the work of the organization more generally in
+this mission? Are there fundraising, scoping, or monitoring objectives that can be
+appropriately combined? Is combining multiple destinations useful and cost effective, while
+being vigilant about burn-out on long trips?
+o Effectiveness: Travel carries benefits to our work as well as opportunity costs. IPA takes
+care to consider the appropriate staff composition and the right timing of travel to ensure
+that it advances our work, while also considering the range of pending priorities at our
+desk, however, staff members are encouraged to organize travel according to their needs
+and preferences within institutional guidelines and work objectives. Given the budgetary
+and time constraints, it is also important to carefully consider alternatives such as video
+conferencing. While face-to-face meetings are often preferred, they may not always be
+essential.
+o Health and Safety: IPA is concerned and invested in protecting the health and safety of
+our staff. Clear processes and guidelines for travel help staff become aware of the
+resources available and to appropriately guard against risk.
+o Cost-consciousness: As a non-profit organization, IPA also has a fiduciary responsibility to
+ensure resources are used prudently and that individuals do not incur inappropriate or
+excessive expenses. Proactively searching for the lowest fare and hotel accommodations
+within reasonable travel parameters, considering shifting dates and times to reduce costs,
+and being thoughtful about expenses incurred during travel can help to minimize costs.
+IPA manages its travel resources to ensure the safety of all project staff, to protect its assets, to
+maximize the effectiveness of project funding, and to provide sufficient internal controls and
+standardization to reduce risk of potential fraud.
+IPA adheres to the travel requirements and regulations of our sponsors. IPA travelers must
+ensure their travel is in compliance with regulations that may apply to their travel costs depending
+upon the funding source.
+All travel must be approved by the relevant supervisory authority as described in this policy prior
+to booking travel, including travel dates, proposed itinerary, and airfare costs. The travel request
+
+must detail a business purpose for the trip that is consistent with the overall project or company
+objectives.
+IPA has partnered with a travel agency to ensure compliance with this travel policy and with U.S.
+Government regulations, where applicable, while maintaining required documentation on file.
+Travelers that do not use IPA's designated travel agency are responsible for ensuring compliance
+with this travel policy and any applicable donor or U.S. Government regulations and that the
+required documentation is kept on file. Travelers who do not use IPA's designated travel agency
+will be financially responsible to reimburse IPA for travel costs that are not in compliance with IPA
+policy. See the Guidance section below for additional benefits of using IPA's designated travel
+agency.
+IPA will reimburse employees for all reasonable and necessary expenses while traveling on
+authorized business as described in this Global Travel Manual. Expenses that do not comply with
+the requirements set forth in this manual will not be reimbursed unless accompanied by a written
+justification and approval of the Chief Financial Officer.
+The following travel-related costs are not reimbursable:
+o Airline club membership
+o Personal entertainment
+o Souvenirs
+o Fines and other expenses incurred as a result of traffic violations
+o Taxi cost for transportation to non-business or personal activities
+o Alcoholic beverages including beer, wine, and liquor
+o Annual credit card fees or credit card interest
+o Baby or pet-sitting
+o Clothing, luggage/suitcases, toiletries, or over-the-counter medication
+Travel expenses that meet the requirements set forth in this Global Travel Manual incurred by a
+spouse or child(ren) under the age of 18 accompanying an employee on business will be
+reimbursed only when there is a bona fide business purpose for the travel of the spouse and/or
+child(ren), the business purpose is documented in the travel request, and the request is approved
+by the budget-holder.
+Travelers to the following countries must inform Global Operations (GlobalOperations@poverty-action.org) prior to booking travel and at least two weeks in advance of travel so appropriate
+safety and security measures can be put into place including obtaining temporary corporate
+insurance coverage: Afghanistan; Algeria; Angola; Bahrain; Bosnia & Herzegovina; Burundi;
+Cambodia; Central African Republic; Cuba; Democratic Republic of Congo; Egypt; Ethio pia; Guinea-
+Bissau; Haiti; India; Indonesia; Iran; Iraq; Israel, Kosovo; Kuwait; Kyrgyz Republic; Lebanon; Libya;
+Niger; North Korea; Northern Ireland; Pakistan; Somalia; South Sudan; Sudan; Syria; Turkey;
+Venezuela; West Bank and Gaza; Yemen; Zimbabwe.
+To ensure the safety and security of IPA employees, all traveling IPA employees must follow
+the protocol in IPA's Staff Safety & Security Manual.
+5. Policy Implementation
+Travel Approval
+
+All domestic travel must be approved by the traveler's Assignment Supervisor. International travel
+must be approved by the Country Director (for Country Office staff) or appropriate Global Team
+Director (for Global Team staff).
+Travel approval must be obtained for the proposed travel dates, air travel itinerary, and airfare or
+transportation costs. The travel approval request must include budget codes to which costs will be
+charged and a meaningful description of the travel purpose; a "business trip" is not adequate,
+however "Travel to country X to serve as Acting Country Director" is adequate. If travel is booked
+through IPA's designated travel agency, the travel details and travel approval are kept on file with
+the agency.
+Travelers are expected to make international and U.S. domestic airfare arrangements through
+IPA's designated travel agent; however, when this is not feasible, travelers must present a
+comparison with two other written quotes (such as online quotes) for the same travel dates, class
+of service, and destination(s), accompanying their travel approval request to demonstrate the
+price reasonableness of the selected itinerary. A copy of the airfare comparison and the
+Assignment Supervisor's approval must be submitted with the traveler's expense reimbursement
+request.
+Travel approval requests must indicate if the travel itinerary is being modified to accommodate
+personal travel or personal preferences, this includes departing from a different location than the
+traveler's home of record (or a location where they are already present for the purposes of
+conducting IPA business); adding non-business destinations to the itinerary; requesting specific
+stopover locations for personal reasons; or adding personal time before, during, or after the trip.
+If travel is booked through IPA's designated travel agency, these travel details will be
+communicated to the Assignment Supervisor automatically via the travel request workflow. If
+travel is not booked through IPA's designated travel agency, the traveler must present written
+evidence of the cost of trip if no personal travel adjustments were to be made.
+Travelers must ensure that required approvals have been obtained from the client and/or
+sponsor, when applicable, prior to incurring travel costs. If in doubt about sponsor travel approval
+requirements, the traveler should consult the Grants team. See section on 'USG -funded Travel'
+below for specific approval requirements of U.S. Government-funded travel.
+Travel Advances
+Country Offices may set their own policies on travel advances which may be equivalent to or more
+restrictive than the policies described in this Travel Advances section of the Global Travel Policy.
+When needed, IPA employees are eligible to receive a travel advance to cover personal expenses
+while traveling. Travel advances must be approved by the Assignment Supervisor and must not
+exceed projected costs of lodging, transportation, meals, and incidental expenses.
+Travel advances paid by IPA to an employee must be settled by submitting an expense report or
+reimbursement request within 30 days of travel completion. The office from which a travel
+advance was issued must be the office that settles the advance.
+Independent consultants, PIs, and employees of subcontractors are not eligible for travel
+advances from IPA. IPA can book and pay for lodging and transportation costs on behalf of these
+individuals where feasible and/or necessary to minimize the personal financial burden on them.
+
+Travel advances are considered personal funds and the funds therefore are the
+responsibility of the traveler until the employee either submits an approved expense report in an
+amount equal to or exceeding the advance or returns the balance of the advance not accounted
+for in the expense report. Travel advances outstanding for more than 30 days after the end of a
+trip may be cleared through payroll deduction(s).
+All previous travel advances must be cleared before an employee is eligible for any new
+travel advance. No advance will be issued if any portion of an existing travel advance has not been
+repaid.
+Travel Expenses
+Country Offices may have a country-specific policy that addresses travel expenses which
+may be equivalent to or more restrictive than the requirements set forth in this Travel Expenses
+section of the Global Travel Policy. In the absence of a country-specific policy, travelers will follow
+the policies documented in this Travel Expenses section.
+When IPA staff travel internationally for IPA business on behalf of a project and/or Country
+Office, the traveler must adhere to the travel policy of the Country Office and project that is
+funding the travel to ensure that travel expenses align with what has been budgeted and
+approved.
+5.13.1. When travel will be funded by a mixture of Overhead and project funding, the traveler
+should work with both budget holders to agree how travel expenses will be handled.
+Where a per diem rate for meals and incidental expenses is not established, e xpenses
+incurred for personal meals, lodging, and incidental expenses are reimbursed based upon actual
+expenses incurred, as documented by receipts for all expenses above USD $25. (Expenses below
+USD $25 do not require a receipt). See Procedure 3 in this manual for a list of reimbursable travel
+expenses.
+Grant-funded travel expense incurrence and reimbursement must adhere to the
+requirements of the agreement and sponsor.
+When travel is funded by Overhead or Unrestricted funds IPA issues per diem for meals
+and incidental expenses (M&IE). See section on Per Diem below for per diem-specific policies. IPA
+does not issue per diem for lodging. See section on Lodging below for lodging -specific policies.
+Employees must submit expense reports within 30 days after the completion of each trip in
+order to receive reimbursement. Receipts for all expenses greater than USD $25 must accompany
+reimbursement requests. Requests for expense reimbursement after 30 days may be denied .
+All expenses must be itemized on the expense report to ensure expenses are coded to the
+correct cost categories.
+5.18.1. When meals will be itemized, it is preferable that travelers include one "meals" line in the
+expense report supported by a table itemizing meal costs.
+Although travel expenses are reimbursable when travel is on a weekend, IPA does not pay
+employee salary for travel during weekends unless the employee is eligible for overtime.
+ATM fees and credit card fees/foreign transaction fees are reimbursable up to USD $50 per
+trip of two weeks or less; these fees must be listed in the expense report as a separate line item.
+
+Travelers may expense tips on meals, transportation, and other miscellaneous services
+provided that they are directly related to IPA business travel and within reasonable and customary
+amounts.
+International travelers requiring logistical support from the Country Office for booking and
+payment of services, including lodging, transportation, and other services, must request support
+well in advance of travel and the traveler must provide the correct billing codes for any travel
+expenses for which the Country Office will facilitate payment.
+Per Diem
+For situations not otherwise described in this policy, per diem for U.S. Government -funded
+travel must not exceed GSA rates for U.S. domestic travel and Department of State rates for
+international travel.
+Country Office's may set per diem rates for Country Office-funded international travel that
+are more restrictive than the requirements set forth in this Per Diem section of the Global Travel
+Policy. Additionally, Country Offices may set per diem rates for Country Office domestic travel. If
+such per diem rates are to be set by a Country Office, the rates must be based upon an estimation
+of reasonable actual costs and may not exceed any applicable donor or client per diem
+limitations.
+When international and U.S. domestic travel is funded by Overhead or Unrestricted, IPA
+issues per diem for travelers. Per diem is intended to cover the costs of meals and inciden tal
+expenses including refreshments, meals, and snacks and is based on the costs of an average
+breakfast, lunch, and dinner at facilities typically used by employees at that location, including
+taxes, service charges, and customary tips.
+Event or conference organizers may set a per diem rate for participants. Should a project
+or conference organizer desire to establish per diem rates for travelers, the proposed rate must
+be in alignment with any donor requirements.
+Personal meal expenses are not required to be itemized by employees collecting per diem.
+Per diem for Overhead and Unrestricted-funded travel within the U.S. is USD $70 per day.
+Per diem for Overhead and Unrestricted-funded travel outside the U.S. is USD $50 per day.
+IPA employees are eligible to receive per diem only when traveling for more than 12
+consecutive hours in one day. I.e., if the trip is less than 12 hours from start to finish, per diem
+does not apply.
+Daily per diem rates for travel funded through Overhead or Unrestricted fun ds must be
+reduced to 75% of the rate for the destination location in the following circumstances 1:
+o When travel is more than 12 hours but not a full 24-hour travel day;
+o On the first day of travel;
+o On the last day of travel.
+IPA employees seeking payment of per diem must complete the Per Diem Calculator
+(Annex 7) and attach it as backup to their expense report.
+
+1 FTR 301-11.101
+
+When meals are provided during travel, for example by a hotel or as part of an event, the
+daily per diem rate (with travel day reduction, if applicable) must be reduced by the following
+percentages depending upon the meal that was provided:
+Meal Breakfast Lunch Dinner
+Per diem
+discount
+percentage
+15% 25% 40%
+
+Safety & Security
+All employees must inform the hosting Country Office of their travel plans prior to travel
+and must ensure international travel itineraries are entered into IPA's traveler tracking platform;
+this is done automatically if the employee books travel through IPA's travel agency. If travel is
+booked using a source other than IPA's Travel Agency, the employee must submit the
+international travel itinerary to the tracking platform as per Procedure 1: Preparing for Travel.
+Prior to travel to a Country Office, travelers must request and read the Country Office's
+Staff Safety & Security Manual and/or Welcome Guide and must read any pre-travel briefing
+information provided by International SOS (this information is sent automatically to the tr aveler's
+email when travel is booked though IPA's designated travel agency .).
+International travelers to a country or region ranked by International SOS as 'High' or
+'Extreme' must request a security briefing from International SOS at least one week prior to travel.
+International travelers must have an arrival plan in place prior to departure. The plan
+should detail the party responsible for picking them up upon arrival at the airport, the phone
+number for the IPA focal point contact in country in case the designated pick-up fails to show, a
+back-up contact, and the address of the hotel in the country of arrival.
+Prior to travel all IPA employees must ensure they are properly insured for medical
+coverage during travel. Insurance requirements will depend on employment type and location.
+Insurance coverage can be confirmed by contacting the Human Resources team of the employee's
+office.
+All IPA employees, independent consultants, and student volunteers who travel
+internationally for IPA business are covered by IPA's medical and security evacuation policies
+through International SOS. Subcontractor employees are not covered under IPA's plans and must
+be covered by their own organization's evacuation and insurance policies.
+Travel Documentation
+Travelers are expected to manage obtaining visas and passports independently or with the
+support of IPA's designated travel agency. When the support of an IPA office is needed, this
+support must be requested well in advance of planned travel.
+IPA will reimburse costs of visas for work-related travel. IPA will also reimburse costs
+related to passport renewal or amendment if required for work-related travel. The costs of
+expediting visas will not be reimbursed unless the delays were caused by IPA.
+
+Travelers must have proper and valid documents (passports and visas) prior to traveling
+when required. Passports must have at least 6 months validity beyond the anticipated travel dates
+with several blank visa pages. Travelers must obtain proper documents in a timel y manner so as
+to avoid delays and/or unnecessary fees.
+Travelers must consider the country or region-specific vaccination requirements and
+obtain vaccinations, which are a reimbursable travel expense, as required prior to travel to ensure
+entry requirements are met. It is recommended that travelers consult a knowledgeable healthcare
+professional for travel-related medical advice regarding vaccinations and preventative health
+treatment prior to international travel.
+Airfare
+Air travel must be arranged to the fullest extent possible using the lowest economy fare
+(coach) that meets the business need (including arrival and departure times) via the most direct
+and expeditious route that can be changed with a fee. If travelers opt for alternative routing due
+to personal preferences, such as air carrier or layover duration or location, the traveler must pay
+the difference.
+Upgraded classes of service (e.g., Economy Plus, Coach Elite, Coach Plus, Preferred Coach)
+airfare are not reimbursable. Upgrades to other-than-economy fare are permitted at the traveler's
+personal expense. Exceptions to this policy must be approved by the CFO. See the section on 'U .S.
+Government-funded Travel' for additional requirements that must be met when the exception is
+associated with U.S. Government funding.
+5.44.1. Exceptions to the use of upgraded classes of services may be approved when requested
+for medical reasons and when accompanied by a signed note from the traveler's doctor. This
+medical note must be no more than one year old and must be on file for each business trip.
+While travelling internationally a rest period (overnight layover) is permitted assuming all of
+the following conditions apply:
+o The scheduled flight time, including non-overnight stopovers and change of planes, is in
+excess of 14 hours; and
+o The layover may not exceed 24 hours, and
+o Travel is by a direct or usually traveled route, and
+o Travel is by coach class.2
+Whenever possible, travelers must make air travel reservations as far in advance of travel
+as practical in order to obtain reasonable pricing.
+When booking through IPA's designated travel agency, the default mode of payment for
+costs for traveler airfare will be direct payment by IPA unless use of another method of payment
+is requested by the traveler. Travelers may choose to use a personal credit card for airfare
+payment in order to benefit from travel points or other benefits.
+Traveling employees may retain personal frequent flyer program benefits resulting from
+work-related travel, however, participation in these programs must not influence flight selection
+
+2 GSA 301-11.20 and ADS 522.3.18
+
+when doing so would result in incremental cost to IPA beyond the lowest available economy fare.
+Travelers are responsible for handling all aspects of personal frequent flyer accounts.
+Travelers who choose not to book airfare using IPA's designated travel agency are required
+to include the following documents as backup to their expense report in order to obtain
+reimbursement for the airfare:
+o airline itinerary and/or tickets
+o rate comparison showing at least two comparable fares for the same travel dates
+o travel approval by Assignment Supervisor (and any additional approvers required)
+o If route or duration of stay is modified for personal reasons, include travel cost comparison
+o If change fees are incurred, include documented justification of the reason for change
+o If travel is for a US Government-funded project or award and did not comply with the Fly
+America Act, include a justification
+Travelers who choose not to book airfare using IPA's designated travel agency are required
+to submit their itinerary to IPA's travel tracking platform, by forwarding the itinerary to
+PovertyactionTravel@itinerary.internationalsos.com.
+Country Offices that set up agreements with a local travel agency must ensure that the
+agency adheres to the policies in this Airfare section of the Global Travel Policy.
+Additional baggage costs will be covered by IPA only if the extra baggage is directly related
+to the transportation of IPA property or equipment or is at the request of IPA (e.g., bringing
+supplies to the field) and when approved by the Assignment Supervisor.
+If changes must be made to an itinerary, travelers are expected to take proactive and pre -
+emptive steps to defray costs to the extent possible, for example by modifying travel
+arrangements as soon as practical.
+Personal travel booked in conjunction with or in association with work-related travel is the
+responsibility of the employee. IPA will not reimburse for personal travel expenses when personal
+travel is made in conjunction with work-related travel. Travelers are required to pay directly any
+incremental costs for airline tickets, hotel accommodations and other expenses incurred relating
+to personal travel. Travelers are expected to demonstrate the cost difference resulting from
+modifying a trip for personal reasons, and under such circumstances the traveler is responsible
+for the difference.
+Supervisors must ensure that staff travel is planned to optimize business activities.
+Personal travel planned in conjunction with work travel must be appropriate and proportional to
+the business trip. Supervisors with questions regarding appropriateness of personal travel requests
+taken in conjunction with work travel should consult the CFO for guidance.
+IPA is not responsible for the impact of changes to or cancellation of a business trip on
+personal travel arrangements. In such instances the traveler is responsible for any costs
+associated with modifying or cancelling personal travel arrangements; travelers therefore may
+wish to consider obtaining travel insurance for their personal travel.
+Change fees for air travel are reimbursable due to official business purposes when
+justifiably documented. Travelers must provide a written explanation discussing why the itinerary
+had to be changed for business reasons to the Assignment Supervisor for approval; this approval
+
+must accompany the backup documentation for the change fee. Plausible explanations i nclude
+but are not limited to:
+o A delay in a scheduled meeting or event initiated by the individual or group with whom the
+traveler was scheduled to meet,
+o Extending travel due to unforeseen circumstances, i.e., change in scope of work where
+additional time is needed and has been approved to achieve such scope.
+Funds from refunds or discounts issued to the traveler for unused tickets or
+cancelled/changed flights must be returned to IPA if the employee reimbursement has already
+occurred, otherwise the employee must request reimbursement for only the amount of actual
+expenses incurred after accounting for any refunds issued.
+Change fees resulting from traveler personal preferences, personal activities, or missed
+flights due to fault of the traveler are not reimbursable and must be paid by the traveler.
+Ground Transportation
+The most economical mode of transportation that meets the business need and safety
+requirements should be used when traveling. Travelers are encouraged to consult with the IPA
+office at their destination location to arrange local travel through preferred vendors.
+Parking fees and tolls will be reimbursed with a receipt when they are incurred for
+business purposes. Fines for traffic and parking violations are not reimbursable.
+It is the responsibility of the vehicle's owner to carry adequate insurance coverage - IPA's
+corporate insurance policies do not cover vehicles privately owned by staff. IPA's safety
+requirements for personal vehicle use are documented in the Staff Safety & Security Manual .
+Country Offices may set their own expense reimbursement policy for personal vehicle use.
+Employees who use their personal vehicle for IPA business within the U.S. will be
+reimbursed at the U.S. General Services Administration (GSA) per mile rate. See
+http://www.gsa.gov/portal/content/100715 for the current rate. The law requires that travelers
+substantiate their mileage expenses by adequate records or by sufficient evidence to support the
+reimbursement request. The mileage rate includes all costs for operating the car, including gas,
+wear and tear, depreciation, etc. The mileage rate does not include parking and tolls; these may
+be reimbursed in addition to the mileage reimbursement.
+Ground transportation for U.S.-based employees who work outside of an IPA office and
+travel intermittently to an IPA office for work-related purposes may be reimbursable. Employees
+must check with their supervisor to determine what expenses/mode of travel will be reimbursed
+when visiting other IPA office locations.
+IPA does not reimburse employees for a regular commute to the office where they have
+been designated to work long term.
+Lodging
+When travel expenses are incurred with sponsor funding, all traveler lodging must adhere
+to sponsor and/or client requirements for lodging in addition to any IPA-imposed lodging cost
+limitations.
+
+Travelers must seek guidance from the Assignment Supervisor regarding lodging selection
+to ensure that it is within budget, does not exceed donor lodging cost limitations, and represents
+a reasonable cost. Assignment Supervisors must ensure that lodging expense limitations, where
+applicable, are communicated to the traveler and enforced. Travelers are encouraged to consult
+with the IPA office at their destination location to arrange lodging through preferred vendors.
+Lodging bookings must follow the requirements of the Global Procurement Manual except
+when an IPA office has established nightly lodging maximums, in which case any lodging equal to
+or less than the maximum may be booked without a competitive procurement process . If such
+lodging rates are set, they must be based upon an estimation of reasonable actual costs and may
+not exceed any applicable donor or client lodging cost limitations.
+When travel is for a group activity (ex. conference, training, etc.), travelers are required to
+use accommodations where there is an IPA-negotiated or group rate as communicated by the
+organizer of the activity.
+Travelers to an IPA Country Office must consult with the hosting office to identify lodging
+options that meet IPA security requirements described in the Safety & Security Manual for IPA
+Management. For lodging in countries where IPA does not have a presence, travelers are
+encouraged to contact Global Operations or International SOS for assistance in identifying lodging
+that meets IPA's security requirements. (See the Safety & Security Manual for IPA Management for
+additional information on hotel safety criteria.)
+Many hotels have frequent guest programs that reward travelers with free
+accommodations in exchange for a given number of paid room nights at the hotel. Awards from
+such programs may be retained by travelers for personal use. However, participation in these
+programs must not influence hotel selection when it would negatively impact cost, safety and
+security, or logistics.
+Communication
+IPA encourages travelers to carry a cellular phone with international calling capability or to
+purchase a local SIM card, which is a reimbursable travel expense, to facilitate communication
+while traveling.
+Travelers purchasing a local SIM card and airtime and/or data to communicate while
+traveling must confirm the budgeted amount for communications expenses with their Assignment
+Supervisor and must not exceed the approved amount. IPA strongly encourages staff to use free
+calling services such as Skype or WhatsApp to decrease travel-related communication expenses,
+where possible.
+Necessary business calls made from personal cell phones while traveling can be expensed
+with approval from the Assignment Supervisor. The expense report claim for these calls must
+detail the purpose of the call, the person called, and, where possible, the provider's call log should
+be attached.
+Property and IT Equipment
+When traveling for IPA business, travelers are responsible for exercising reasonable
+precautions to protect IPA's property. IPA and/or its insurance carriers will assist in replacing lost
+
+or stolen IPA property if the employee has taken such precautions, if not, the employee may be
+responsible for the replacement of the item.
+If losses of IPA property occur, the traveler must file a police report documenting the loss
+and report the loss to the Legal team so IPA's insurance administrator can be notified.
+Employees must not pack electronics, including laptop computers or survey equipment in
+checked baggage. Airlines are not liable for electronic equipment losses in checked baggage ,
+therefore all IPA equipment must be transported in carry-on baggage.
+5.78.1. When carrying-on electronic equipment is not feasible or allowed by the destination's entry
+requirements, the traveler should consult the MIST team regarding alternatives to hand -
+carrying equipment.
+Any electronic equipment (medical equipment, professional video equipment, survey
+equipment, and computers) carried internationally may require special documentation from the
+U.S. in order to avoid taxes, tariffs, or unnecessary delays in customs. I f transporting equipment
+other than personal equipment, internationally contact IPA's MIST for assistance in obtaining the
+required documentation or identifying alternatives to hand-carrying equipment.
+U.S. Government-funded Travel
+Per the Fly America Act, all air travel funded by the U.S. Government in which the origin or
+final destination is within the United States must be on a U.S.-flag air carrier, Open Skies carrier, or
+U.S. code share flight.
+Travelers whose U.S. Government-funded travel will not adhere to Fly America Act
+requirements must provide a written justification as to why. Cost alone is not a justification for
+taking a foreign carrier per Federal Travel Regulations (FTR). When booking through IPA's
+designated travel agency the agency will ensure compliance to the applicable regulations and
+retain required documentation on-file when informed that the flight is related to U.S.
+Government-funded travel.
+Valid Fly America Act exceptions include:
+o No US carrier flies to the final destination.
+o Flying on a US carrier would require at least two more plane changes than if a foreign
+carrier were used.
+o Flying on a US carrier would take at least 6 hours longer than if foreign carrier were used.
+o Flying on a US carrier causes passenger to wait at least 4 hours at an overseas connection
+point
+o For flights of less than 3 hours, flying US carrier would take 2 times as long as flying foreign
+carrier
+o Flying US carrier causes total trip to be extended by more than 24 hours than if foreign
+carrier was used
+o No coach seat is available on US carrier
+o US carrier switches passenger to flight on foreign carrier involuntarily
+o Travel originates in a foreign country and is destined for a foreign country, i.e., travel
+between two points abroad.
+Should an employee not book international flights through IPA's designated travel agency
+the employee must ensure that airfare adheres to Fly America requirements, when applicable.
+
+Travelers who do not use IPA's designated travel agency will be financially responsible to
+reimburse IPA for travel costs that are not in compliance with IPA policy.
+The IPA Grants team must be consulted for travel funded by the U.S. Agency for
+International Development (USAID), as prior approval in writing from the Agreement or Contract
+Officer may be required.
+Business class airfare may be purchased with U.S. Government funding only with written
+approval from and authorization by Agreement or Contract Officer in addition to the IPA
+requirements for business class airfare described in this policy. Circumstances justifying the use
+of for U.S. Government-funded business class air accommodations may include the following3:
+o Economy class air accommodations not available;
+o Travel is by a person with a physical or medical condition that is certified by a doctor;
+o Security reasons or exceptional circumstances including emergency evacuation;
+o Use of frequent traveler benefits, resulting in no additional cost to upgrade;
+o Coverage of additional cost by a non-federal source.
+o Circumstances beyond the control of the traveler while en route (e.g., schedule changes,
+grounding of planes, etc.)
+Lodging for U.S. Government-funded travel must adhere to GSA rates for U.S. domestic
+travel and to Department of State lodging rate limitations for international travel.
+Travelers planning a trip funded by U.S. Government contracts (not cooperative
+agreements or grants) should notify the Grants and Human Resources teams so that Defense
+Base Act (DBA) insurance coverage can be purchased for the traveler as required by the U.S.
+Federal Acquisition Regulations.
+International travelers for USAID-funded contracts must demonstrate that they are
+physically qualified to engage in the type of activity, including any travel, for which s/he is retained,
+and is physically able to reside in the country to which s/he is assigned. Prior to departure,
+travelers must submit the required documents directly to Global Human Resources along with a
+notification to the Assignment Supervisor that the documentation has been submitted.
+Documents containing medical information are considered personal and confidential; as such
+hard and electronic copies may not be stored in files outside of Global HR. Requirements for
+medical certification for the purpose of USAID-funded travel are:
+o For assignments of less than 60 days, the traveler must provide an annual medical
+certification or doctor's note that s/he is healthy to travel. If a doctor's note is used, it may
+be issued by the individual's personal physician in conjunction with their annual physical
+check-up. Seen Annex 5 for a template letter that can be used.
+o For assignments of 60 days or more, the traveler is required to undergo a one -time
+medical examination by a licensed physician who completes the USAID Physical
+Examination form prior to travel (Annex 6).
+6. Guidance
+
+3 https://www.gsa.gov/policy-regulations/policy/travel-management-policy/travel-reporting/premium-class-travel-reports/travel-exception-codes-and-frequently-asked-questions
+
+This section describes guidance to aid in the understanding and implementation of this procedure and
+does not include mandatory requirements.
+In addition to ensuring compliance with donor requirements and IPA policy, the benefits of using
+IPA's designated travel agency include:
+o Access to humanitarian fares for flights not available to the public
+o Ability to hold tickets for 24 hours
+o Travel alerts prior to and during travel
+o 24/7 support if there are issues during travel including cancelled or delayed flights
+o Support in making ticket modifications, including flight changes
+o Guidance on required vaccinations and travel documentation, including visas, based upon
+nationality
+o Option of direct billing to IPA for travelers not wishing to use personal credit cards
+Travelers should discuss visa requirements and the most appropriate visa type with the Country
+Director, or designee, and Assignment Supervisor to ensure the appropriate type of visa is
+obtained.
+Prior to travel, travelers should research short-term international phone plans and phone call
+rates for the countries which they will be traveling with their cellular carrier. Some providers offer
+reasonably-priced short-term international phone and/or data coverage. Cost-effectiveness of
+such coverage should be compared to the cost of purchasing a local SIM and airtime minutes and
+data so that the traveler can utilize the most cost-effective option, when practical.
+Travelers are encouraged to discuss their travel plans with their personal credit/debit card carriers
+prior to departure from the United States as some banks and credit card companies may flag or
+prevent transactions from overseas without prior notification. Travelers are also encouraged to
+carry an extra bank card in a separate location in case of theft or misplacement of card.
+
+Procedure 1: Preparing for Travel
+1. Purpose & Scope
+This procedure implements the policies related to travel approval stated in the Travel Policy.
+The purpose of this procedure is to describe the steps a traveler takes to prepare for a business
+trip and includes the processes for the following:
+o requesting approval prior to travel;
+o obtaining passports, visas and immunizations/medical certificates;
+o requesting a travel advance;
+o making travel arrangements for lodging, transportation, insurance, and export control; and
+o obtaining information for evacuation and security guidance
+2. Roles & Responsibilities
+IPA travelers are responsible for requesting and obtaining travel approval and travel advance
+approval, where applicable, for obtaining necessary documentation and medical inoculations
+prior to travel, and for proactively making travel arrangements in a timely manner, ensuring costs
+are reasonable. Travelers also must ensure that medical, security-related, and/or logistical travel
+information is obtained prior to departure.
+Assignment Supervisors are responsible for reviewing and approving travel requests in a timely
+manner, ensuring that the requested trip is consistent with the official business purpose, that
+there are sufficient funds within the budget, and that the traveler has obtained any necessary
+client and/or donor approvals where applicable. Assignment Supervisors are also responsible for
+reviewing and approving travel advance requests, ensuring that the amount requested does not
+exceed the anticipated expense amount.
+Global Operations is responsible for ensuring that travelers have access to adequate safety and
+security resources prior to travel and for providing safety and security related support to travelers
+when requested.
+The Finance team of the office to which the employee is assigned is responsible for issuing
+approved travel advances according to IPA policy when applicable.
+3. Process
+Actor Action: Pre-approval
+Traveler 1. Discuss anticipated travel plans with Assignment Supervisor, including scope of
+work for the trip.
+2. If travel is on behalf of a project and will be funded by a donor agreement,
+consult the project team and/or Grants Team to determine if client travel
+approval and/or country clearance is required.
+2.1. If client approval is required, work with the Grants Team to obtain approval.
+
+3. Ensure there is enough time prior to travel to obtain required travel documents,
+such as valid passport, visa(s), and immunization(s) documentation.
+4. Initiate a travel booking request using one of the following methods several
+weeks in advance of departure:
+Book request through online portal (COMING SOON!):
+4.1. Navigate to IPA's travel agency's website. If you are not yet registered,
+submit a registration request.
+4.2. Initiate an online booking reservation stating travel dates and specific
+business purpose and/or planned objectives. The purpose must be clearly
+defined; "business travel" is not an adequate purpose.
+4.3. Identify a fare which is consistent with IPA's airfare policies about route,
+class of service, Fly America/Open Skies compliance requirements, and that
+is the lowest economy fare that meets travel needs.
+4.4. Submit the itinerary via the portal for approval.
+Book request by contacting a travel agent:
+4.5. Contact the travel agency via phone or email
+(inspireteam1.us@keytravel.com; +1-646-289-680), submitting a completed
+Travel Agency Request Form (see Annex 1).
+4.6. Work with the agent to identify an itinerary that meets the travel
+requirements and complies with IPA's travel policy.
+Book travel independently:
+4.7. Search flights online, ensuring that the selected flight is the lowest economy
+fare via the most direct and expeditious route and that it complies with the
+requirements of IPA's travel policy.
+4.8. Save the itinerary that will be requested plus two additional quotes for the
+proposed destinations and dates to serve as a cost comparison.
+5. Obtain Assignment Supervisor approval of the selected itinerary.
+5.1. If travel is booked via the travel agency's online portal the travel agency will
+notify the Assignment Supervisor requesting approval. Once approved, the
+ticket will be issued.
+5.2. If travel is booked via email using the Travel Request Form, the travel agent
+will request approval of the appropriate party via email.
+5.3. If travel is not booked through IPA's travel agency, submit a completed
+Travel Request Form (Annex 2) along with a cost comparison showing two
+additional quotes for the proposed destinations and dates and any other
+required documentation for the type of travel.
+Assignment
+Supervisor
+6. Review proposed business purpose, itinerary, cost of ticket, and compliance with
+IPA travel policy.
+
+7. Approve or reject the itinerary in a timely manner based upon review of the
+proposed itinerary.
+7.1. If travel is to any of the following countries, inform the Global Operations
+team at least two weeks in advance so appropriate safety and security
+measures can be put into place and so temporary corporate insurance
+coverage can be obtained prior to travel: Afghanistan; Algeria; Angola;
+Bahrain; Bosnia & Herzegovina; Burundi; Cambodia; Central African
+Republic; Cuba; Democratic Republic of Congo; Egypt; Ethiopia; Guinea-
+Bissau; Haiti; India; Indonesia; Iran; Iraq; Israel, Kosovo; Kuwait; Kyrgyz
+Republic; Lebanon; Libya; Niger; North Korea; Northern Ireland; Pakistan;
+Somalia; South Sudan; Sudan; Syria; Turkey; Venezuela; West Bank and
+Gaza; Yemen; Zimbabwe.
+8. If additional approvals are required, forward the request to the appropriate
+individual(s) for approval.
+8.1. If travel is being requested through IPA's designated travel agency, approval
+routing will be facilitated by the agency, so no further action is needed.
+Traveler 9. Once required approvals of the itinerary are obtained, proceed with booking air
+travel.
+9.1. If travel is booked through IPA's designated travel agency once travel has
+been approved a ticket will be issued to the employee via email. Follow up if
+needed to confirm travel booking is complete.
+9.2. If travel is not booked through IPA's designated travel agency, once travel
+approval is received, proceed with booking the flight using a personal credit
+or debit card.
+10. If travel is not booked through IPA's designated travel agency, submit itinerary to
+the travel tracking platform by forwarding the itinerary to
+PovertyactionTravel@itinerary.internationalsos.com.
+10.1. See the Travel Tracker section of this guide for detailed instructions
+for submitting or modifying an itinerary.
+Actor Action: Post-approval
+Traveler 1. As early as feasible prior to travel, discus appropriate visa type with the hosting
+country office.
+2. Ensure required visas are obtained either directly through the appropriate
+embassy, with assistance from the hosting office or through IPA's designated
+travel agency.
+2.1. Contact either the hosting office or Global Human Resources for assistance
+in obtaining IPA documentation, including invitation letters, when required
+for obtaining visas.
+3. As early as feasible prior to travel, obtain vaccinations required for entry, as
+applicable.
+
+3.1. Visit a travel clinic or physician to obtain required vaccinations and to
+update the World Health Organization (WHO) yellow card, if needed.
+3.2. See the Guidance section of this procedure below for additional
+recommendations regarding immunizations and other medical
+considerations during travel.
+4. If travel is for a U.S. Government-funded program, ensure the appropriate
+physical fitness certification is on file.
+4.1. Use Annex 6 if the assignment is under 60 days. Complete this certification
+only once per year; it is kept on file and used for all U.S. Government-funded assignments under 60 days during that year.
+4.2. Use Annex 7 if the assignment is over 60 days.
+4.3. Submit the completed certification to the receiving office's HR team and
+inform the Assignment Supervisor that this requirement has been
+completed.
+5. Inquire about options for lodging arrangements.
+5.1. Confirm with the Assignment Supervisor the assignment lodging budget.
+5.2. When traveling to locations where IPA already has an office, check with the
+Country Office team to determine if there are established negotiated rates
+with hotels that meet IPA security recommendations, and inquire about the
+Country Office's ability to provide support in making lodging reservations.
+6. Secure lodging reservations.
+7. Review Procedure 3 Reimbursable Travel Expenses to understand what types of
+travel expenses are reimbursable and the backup documentation required for
+reimbursement.
+8. Request a travel advance if needed for airfare, lodging, or other anticipated
+expenses through the finance team of the office where the traveler is employed.
+Assignment
+Supervisor
+9. Review travel advance request for cost reasonableness based on anticipated
+airfare, lodging, and miscellaneous costs.
+10. Approve travel advance request if the request is for an amount equivalent to or
+less than anticipated travel expenses for the trip.
+Traveler 11. Review the profiles of countries to be visited on the International SOS (ISOS)
+platform.
+11.1. If travel is to a country or region ranked by ISOS as 'High' or
+'Extreme', schedule a security briefing with ISOS.
+11.2. Direct questions regarding safety and security during travel either to
+an ISOS Assistance Center or to the Global Operations Director. See Annex 3
+International SOS Basics and Card for ISOS Assistance Center phone
+numbers.
+
+12. Print the ISOS brochure with IPA's membership number and Assistance Center
+phone numbers to carry while traveling. (See Annex 3)
+12.1. It is recommended that travelers also download the ISOS phone app,
+which will enable receipt of travel notifications and in-app access to ISOS
+agents who can assist with travel-related needs.
+13. If applicable, register with your embassy in the country(ies) of travel.
+14. If traveling to a country where there is an IPA Country Office, contact the office
+to:
+• request a copy of their Staff Safety & Security Manual and/or Welcome
+Guide,
+• request a copy of the local emergency contacts list and determine the local
+IPA point(s) of contact for logistical matters, and
+• schedule a pre-travel briefing with the Country Office to inquire about trip
+logistics, health and safety matters, and communication and finance
+recommendations during travel.
+15. Review Traveler Resources (Annex 7) and direct any questions regarding
+insurance coverage and medical evacuation while traveling to Global HR.
+16. Make arrangements for airport pick-up through the hotel, the Country Office, or
+a known local, reputable taxi service provider.
+17. If traveling with equipment in addition to that which is used for personal
+business use, contact the MIST team as additional documentation may be
+required for customs clearance. Note, it is not recommended that travelers carry
+equipment in addition to their personal work items due to export control
+restrictions in many countries.
+18. If travel plans change, contact the travel agency, hotel, and/or Country Office
+providing support as quickly as possible to make changes or cancellations to
+minimize potential fees.
+4. Guidance
+This section describes guidance to aid in the understanding and implementation of this procedure and
+does not include mandatory requirements.
+When applicable, inoculations and vaccines should be recorded and updated on the traveler 's
+World Health Organization (WHO) yellow card, which should always be carried when traveling
+abroad. Some countries require documented proof of inoculations before allowing entry. Given
+the prevalence of unsanitary medical conditions and the high risks asso ciated with inoculations,
+one should avoid having them done abroad.
+Travelers who need to take particular medications on a regular basis should work with their
+medical provider to ensure they have an adequate supply or will be able to obtain additional
+supplies while traveling or working abroad on an extended assignment.
+
+Procedure 2: During and After Travel
+1. Purpose & Scope
+This procedure describes the steps a traveler should take during travel to travel safely, to address
+travel itinerary changes, and to ensure that adequate documentation to substantiate travel
+expenses is collected. This procedure also describes the steps a traveler should take after travel is
+completed to request travel expense reimbursement.
+This procedure applies to all IPA employees who will seek travel expense reimbursement of
+expenses through the Global Finance team. Employees who seek reimbursement of travel
+expenses directly through a Country Office must follow the local reimbursement process.
+2. Roles & Responsibilities
+IPA travelers are responsible for ensuring that expenses incurred while traveling are consistent
+with IPA policy, for collecting receipts for travel expenses greater than $25 (unless donor
+requirements specify otherwise), and for tracking all expenditures under $25. Travelers are also
+responsible for preparing and submitting travel expense reports that meet the requirements
+described in this Global Travel Manual. When required by the Assignment Supervisor, the traveler
+is required to submit a trip report describing the outcome of the trip.
+Assignment Supervisors are responsible for supporting the traveler should itinerary changes be
+required during travel and for reviewing and approving travel expense reimbursement requests
+and ensuring expenses meet the criteria defined in this Global Travel Manual and are
+substantiated by receipts when above $25 (unless donor requirements require otherwise).
+The Finance team of the country to which the employee is assigned is responsible for issuing
+payments for approved travel expense reports, for setting and enforcing IPA policy on expense
+reimbursement, and for tracking outstanding travel advances.
+3. Process
+Actor Action: During Travel
+Traveler 1. While traveling, collect information and documentation that will be required for
+travel expense reimbursement; this could include:
+• Receipts for travel expenses (required for any expense above $25)
+• Log of other travel expenses less than $25 including cost, date, and item
+description
+• Log of transportation/taxi expenses including cost, date, origination,
+destination, and business purpose of travel (ex. Travel to Partner X office for
+meeting)
+• When not receiving per diem, log of meal expenses including cost and date
+and receipts, where applicable
+
+2. If an expense is greater than $25 and the vendor does not provide receipts,
+complete a Travel Expense Receipt (Annex 9), noting the date of purchase, cost,
+item description, and vendor name.
+3. Follow all safety and security protocol and recommendations provided in IPA's
+Staff Safety & Security Manual at all times while traveling.
+4. Should travel plans change while traveling, contact IPA's designated travel
+agency for assistance in changing reservations as soon as practical, and
+coordinate with the local Country Office, as needed.
+4.1. If travel arrangements were not made through IPA's designated travel
+agency, work directly with the Assignment Supervisor to obtain approval for
+itinerary changes. A written justification for change must accompany the
+change fee on the expense report.
+5. In case of an emergency while traveling, follow the protocol as outlined in IPA's
+Staff Safety & Security Manual.
+Actor Action: Post- Travel
+Employee 1. If required by the Assignment Supervisor, prepare a trip report. See Annex 4 Trip
+Report for a template report that may be used.
+2. Prepare and submit an expense report for all travel-related expenses within 30
+days of completion of the trip. The expense report should be submitted to the
+finance team of the office where the traveler is employed. U.S. employees will
+request reimbursement through IPA's global finance platform.
+2.1. See Procedure 3 Reimbursable Travel Expenses for a list of travel expenses
+and required backup documentation for reimbursement to aid in expense
+report preparation.
+Assignment
+Supervisor
+3. Review the expense report, ensuring listed expenses comply with the
+requirements of this Global Travel Manual and are supported by the required
+backup documentation.
+4. Approve the expense report if each expense line complies with IPA policy.
+Return the expense report if any expenditure is lacking required backup
+documentation or is not reimbursable per IPA policy.
+Finance 5. Issue expense payment when Assignment Supervisor approval is received if
+expenses are adequately substantiated by receipts and comply with IPA policy.
+4. Guidance
+This section describes guidance to aid in the understanding and implementation of this procedure and
+does not include mandatory requirements.
+There is no guidance associated with this procedure.
+
+Procedure 3: Reimbursable Travel Expenses
+1. Purpose & Scope
+This procedure lists travel expenses that are reimbursable to the IPA traveler and what
+documentation must accompany each type of expense in order to receive reimbursement.
+The purpose of this document is to ensure that employees are aware of reimbursable travel
+expenses and supporting documentation requirements.
+Travel funded by a Country Office or by a project, follows the expense -related policies of the
+Country Office and/or project funding the travel.
+2. Roles & Responsibilities
+Travelers are responsible for ensuring that travel expenses for which reimbursement will be
+sought are within the categories listed in this procedure and that each expense is accompanied by
+the required documentation.
+The Chief Financial Officer is responsible for determining which types of travel expenses IPA will
+reimburse and for outlining the documentation requirements for each type of expense.
+3. Reference Information
+Reimbursable
+Expenses
+Condition/Additional Information Required supporting documentation for expenses
+>$25
+Airfare Book using the most direct, expeditious
+and economical fare.
+Itinerary showing routing and class of service.
+Cost comparison if route or duration of stay is
+modified for personal reasons. If IPA travel
+agency is not used, must also include travel
+approval and rate comparison.
+ATM
+transaction
+fees
+Not to exceed $50 per 2-week trip Copy of bank and/or credit card statement
+showing the transaction fee, corresponding to
+travel dates and locations.
+Business-related taxi
+fare
+Including reasonable and customary tips
+and only if movement is directly in support
+of travel purpose objectives. A taxi log
+should be kept with dates, fares, origins,
+destinations, and purpose.
+Claimant must show date, origination,
+destination, and business purpose of travel; this
+information can be documented in a taxi log.
+Business
+meals
+Must not include alcohol purchases. Detailed receipt showing what was consumed,
+name and title of attendees/participants, and
+purpose of meeting. If under $25, receipt is not
+required but must confirm that no alcohol or
+other unallowable items were consumed.
+Car rental Should only be used when cost for rental is
+lesser than alternative forms of
+transportation or when logistics requires
+rental.
+Business purpose stating why a car rental was the
+most cost-effective, i.e., visit to multiple partners
+in various locations where taxi service is
+unavailable or would exceed the cost of the car
+rental.
+Communicati
+on expenses
+Should be incurred using the least
+expensive and cost-efficient method.
+Receipt for data and/or airtime purchased if over
+$25.
+Immunization
+/vaccinations
+Required immunizations not covered by the
+traveler's health insurance policy are
+reimbursable at cost.
+Receipt from medical facility showing date
+services were provided and that such services are
+related to a physical examination, immunizations,
+vaccinations, etc.
+
+Excess
+baggage,
+including
+second
+checking fee
+Applicable when directly related to the
+transportation of IPA property, equipment
+at the request of IPA or when travelers are
+moving to post and have been granted a
+baggage allowance (see IPA Employee
+Handbook for relocation allowances).
+Airline receipt showing number of excess
+baggage items, weight, and charges. Include a
+detailed justification describing what the excess
+baggage contained.
+Foreign
+transaction
+fees
+Fees charged by credit cards or banks
+related to foreign transactions incurred
+while paying for other travel expenses.
+Credit card and/or bank statement showing
+foreign transaction fees aligning to the travel
+dates and location.
+Global Entry Reimbursable for employees whose job
+requires or is expected to require, frequent
+international to/from the United States and
+when approved by their supervisor.
+Receipt documenting the name of the traveler,
+duration of Global Entry validity, and fees.
+Ground
+transportatio
+n (bus, rail,
+etc.)
+If movement is directly in support of travel
+objectives.
+Show date, origination, destination, and, if not
+obvious, business purpose of travel; this
+information can be documented in a log.
+Lodging Hotel folio showing the name of guest, dates of
+lodging, daily rate, and applicable taxes.
+Meals When per diem for meals and incidentals is
+not provided, meals can be itemized in the
+expense report or grouped together in one
+expense line when accompanied by a log
+showing meal cost and date. Must not
+include alcohol purchase
+Receipts are required for meals >$25. Include
+meal log when multiple meals are included in one
+expense report line.
+Per Diem Deductions for travel days and provided
+meals must be applied according to the
+Global Travel Policy. If per diem is
+collected, meals may not be claimed
+separately.
+Per Diem Calculator must be attached to expense
+report.
+Personally-owned
+vehicle (POV)
+mileage
+The employee is responsible for all vehicle
+operating costs when the employee's
+personal vehicle is being used for IPA
+travel. Drivers are responsible for adhering
+to legal requirements for vehicle use
+including having a driver's license,
+registered vehicle, and third-party
+insurance.
+Document origination (address), destination
+(address), trip mileage, and purpose of trip.
+Include a printout of the GSA rate at the time of
+travel.
+http://www.gsa.gov/portal/content/100715
+Visa/Passport
+photos/proce
+ssing fees
+Whether using an expediter or obtaining visa
+directly from the Consulate or Embassy, collect
+receipts that are issued that show the name of
+the traveler, dates a visa is valid, and related fees.
+4. Guidance
+This section describes guidance to aid in the understanding and implementation of this procedure and
+does not include mandatory requirements.
+There is no guidance associated with this procedure.
+
+Procedure 4: US Government-funded Travel
+1. Purpose & Scope
+The purpose of this procedure is to document regulations that are applicable to U .S. Government-funded travel, including the Fly America Act.
+This procedure implements the policies on U.S. Government-funded travel stated in the Global
+Travel Policy.
+The regulations outlined below are applicable for U.S. Government-funded grants, subgrants,
+contracts, and subcontracts and therefore must be taken into consideration when booking travel
+under those types of agreements.
+2. Roles & Responsibilities
+Employees are responsible for confirming if their travel is funded by the U .S. Government and are
+responsible for either informing IPA's designated travel agency that the travel is U.S. Government-funded or, if booking travel independently, for ensuring their flights are in compliance with the
+applicable regulations.
+IPA's designated agency is responsible for asking travelers if travel is U.S. Government-funded
+and, when applicable, for booking travel that is in compliance with federal travel regulations.
+3. Reference Information
+The following are applicable to travel funded by the U.S. Government:
+Approvals
+Prior Approval: For travel funded by the U.S. Agency for International Development (USAID), traveler
+should confirm with Grants team if prior approval in writing from the Agreement Officer (AO) is needed.
+Country Clearance: Some contracts and/or agreements may require written notification from th e
+Contracting Officer or Agreement Officer of clearance of any employee sent outside the United States to
+perform duties under the contract/agreement. Contact the Contracting Officer's Representative to verify
+the mission-specific requirements.
+Physical Fitness certification:
+• For USAID-funded overseas contract assignments of less than 60 days, the traveler must provide
+an annual medical certification, or doctor's note, that s/he is healthy to travel. If a doctor's note is
+used, it may be issued by the individual's personal physician in conjunction with her/his annual
+physical check-up.
+• For USAID-funded overseas contract assignments of 60 days or more, the traveler is required to
+undergo a one-time medical examination by a licensed physician who completes the Contractor
+Employee Physical Examination Form.
+Business Class Exceptions: USAID policy that business class air accommodations may be justified by one
+of the reasons cited in Federal Travel Regulation 301-10.121 when travel is in excess of 14 hours and when
+authorized by the Agreement Officer or Contract Officer.
+
+Carrier Restrictions
+Fly America Act:
+Per the Fly America Act, all airfare funded by the U.S. Government must be booked on U.S. flag air carriers
+("Fly America Act"), to the extent that service by such carriers is available. This includes tickets booked on
+code-shared flights when the ticket is issued using the U.S. carrier's flight number.
+The US-EU Open Skies Agreement:
+The Fly America Act provides an exception to the U.S. carrier rule, "when the transportation is provided
+under a bilateral or multilateral air transportation agreement to which the United States Governmen t and
+the government of a foreign country are parties, and which the Department of Transportation has
+determined meets the requirements of the Fly America Act."
+The US-EU Open Skies Agreement has been determined to meet the requirements of the Fly America Act
+and as a result, US Government-funded air travel may take place on European Community airlines (EU
+carriers) when traveling (1) between the U.S. and any point in an EU Member State or (2) between any two
+points outside the United States.
+Fly America Act Exceptions:
+• No U.S. carrier flies to the final destination.
+• Flying on a U.S. carrier would require at least two more plane changes than if a foreign carrier were
+used.
+• Flying on a U.S. carrier would take at least 6 hours longer than if foreign carrier were used.
+• Flying on a U.S. carrier causes passenger to wait at least 4 hours at an overseas connection point
+• For flights of less than 3 hours, flying U.S. carrier would take 2 times as long as flying foreign carrier
+• Flying U.S. carrier causes total trip to be extended by more than 24 hours than if foreign carrier
+was used
+• No coach seat is available on U.S. carrier
+• U.S. carrier switches passenger to flight on foreign carrier involuntarily
+• Travel originates in a foreign country and is destined for a foreign country, i.e., travel between two
+points abroad.
+4. Guidance
+This section describes guidance to aid in the understanding and implementation of this procedure and
+does not include mandatory requirements.
+Additional information about U.S. government regulations can be found in these locations:
+o Federal Travel Regulations
+o Fly America Act Guidelines
+o Foreign Affairs Manual: 14 FAM 583- Use of U.S.-flag and Foreign Air Carriers
+
+Annexes
+Annex 1: Travel Agency Request Form
+Annex 2: Travel Request Form
+Annex 3: International SOS Basics and Card
+Annex 4: Trip Report Template
+Annex 5: Physical Fitness Certification- assignments under 60
+days
+Annex 6: Physical Fitness Certification- assignments over 60
+days
+Annex 7: Per Diem Calculator
+Annex 8: Traveler Resources
+Annex 9: Travel Expense Receipt

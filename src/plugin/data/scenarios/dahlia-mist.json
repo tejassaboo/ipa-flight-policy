@@ -1,0 +1,128 @@
+{
+  "id": "dahlia-mist",
+  "category": "refusal",
+  "overlays": [
+    "personal_travel"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm going to my cousin's wedding in Bogota on February 12th, on annual leave. I'll answer email while I'm there; could IPA buy the ticket?",
+  "trip": {
+    "traveller_name": "Carlos Mendez",
+    "traveller_title": "Grants Associate",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "IAD",
+    "destination": "BOG",
+    "travel_date": "2027-02-12",
+    "booking_date": "2027-01-18",
+    "business_starts": "",
+    "purpose": "A family wedding in Bogota, on annual leave",
+    "purpose_kind": "PERSONAL",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "IAD",
+        "destination": "BOG",
+        "date": "2027-02-12",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "avianca": {
+            "carrier": "AV",
+            "depart": "08:05",
+            "minutes": [
+              330
+            ]
+          },
+          "miami": {
+            "carrier": "AA",
+            "via": [
+              "MIA"
+            ],
+            "depart": "07:00",
+            "minutes": [
+              165,
+              215
+            ],
+            "layovers": [
+              100
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "avianca-economy",
+            "flight": "avianca",
+            "cabin": "ECONOMY",
+            "fare_cents": 43000
+          },
+          {
+            "slot": "miami-economy",
+            "flight": "miami",
+            "cabin": "ECONOMY",
+            "fare_cents": 46800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "OUTSIDE_POLICY_SCOPE",
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "POLICIES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        388,
+        394
+      ],
+      "sha256": "476687f4f550d6e080b3f0e8ef684043f2baf0460d04f099965e93042bf08456",
+      "quote": "Personal travel booked in conjunction with or in association with work-related travel is the responsibility of the employee. IPA will not reimburse for personal travel expenses when personal travel is made in conjunction with work-related travel. Travelers are required to pay directly any incremental costs for airline tickets, hotel accommodations and other expenses incurred relating to personal travel. Travelers are expected to demonstrate the cost difference resulting from modifying a trip for personal reasons, and under such circumstances the traveler is responsible for the difference.",
+      "why": "personal travel is the employee's; the traveller pays incremental costs"
+    },
+    {
+      "lines": [
+        128,
+        129
+      ],
+      "sha256": "24ad8bec5de7a93bce7a9d42bf4f3bc1bccc30bd0a6b23079b55f4f33ac95314",
+      "quote": "IPA will reimburse employees for all reasonable and necessary expenses while traveling on authorized business",
+      "why": "IPA pays for travel on authorized business"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 128-129: IPA pays for travel on authorized business; lines 388-390: personal travel is the employee's. A wedding on annual leave is personal, whatever email is answered: IPA buys no ticket."
+}

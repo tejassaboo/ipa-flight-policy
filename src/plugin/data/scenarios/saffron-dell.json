@@ -1,0 +1,211 @@
+{
+  "id": "saffron-dell",
+  "category": "multi_rule",
+  "overlays": [
+    "personal_travel",
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'll be on leave in Mexico City the week before the Bogota workshop, so please fly me from Mexico City on March 15th instead of from home in Washington; I put that in my approval request. Price it against the flight from Dulles too, and I'll pay whatever the Mexico City ticket costs above it.",
+  "trip": {
+    "traveller_name": "Sofia Herrera",
+    "traveller_title": "Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "IAD",
+    "origin": "MEX",
+    "destination": "BOG",
+    "travel_date": "2027-03-15",
+    "booking_date": "2027-02-22",
+    "business_starts": "2027-03-16 09:00",
+    "purpose": "Monitoring workshop in Bogota",
+    "purpose_kind": "TRAINING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": true,
+    "wants_refundable": false,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MEX",
+        "destination": "BOG",
+        "date": "2027-03-15",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "avianca": {
+            "carrier": "AV",
+            "depart": "09:20",
+            "minutes": [
+              285
+            ]
+          },
+          "aeromexico": {
+            "carrier": "AM",
+            "depart": "13:00",
+            "minutes": [
+              285
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "avianca-economy",
+            "flight": "avianca",
+            "cabin": "ECONOMY",
+            "fare_cents": 54000
+          },
+          {
+            "slot": "aeromexico-economy",
+            "flight": "aeromexico",
+            "cabin": "ECONOMY",
+            "fare_cents": 58500
+          }
+        ]
+      },
+      {
+        "name": "home",
+        "origin": "IAD",
+        "destination": "BOG",
+        "date": "2027-03-15",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dulles": {
+            "carrier": "AV",
+            "depart": "08:05",
+            "minutes": [
+              330
+            ]
+          },
+          "houston": {
+            "carrier": "UA",
+            "via": [
+              "IAH"
+            ],
+            "depart": "09:30",
+            "minutes": [
+              235,
+              305
+            ],
+            "layovers": [
+              90
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "dulles-economy",
+            "flight": "dulles",
+            "cabin": "ECONOMY",
+            "fare_cents": 43000
+          },
+          {
+            "slot": "houston-economy",
+            "flight": "houston",
+            "cabin": "ECONOMY",
+            "fare_cents": 50500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "avianca-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE",
+      "PERSONAL_TRAVEL_NOT_COVERED",
+      "TRAVELER_PAYS_DIFFERENCE"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "REIMBURSABLE_EXPENSES",
+      "TRAVEL_APPROVAL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        175,
+        179
+      ],
+      "sha256": "b628476d7c7cc159f3913ea73c0e1e5c99b54e8f328572f5413f996c45ed978b",
+      "quote": "Travel approval requests must indicate if the travel itinerary is being modified to accommodate personal travel or personal preferences, this includes departing from a different location than the traveler's home of record (or a location where they are already present for the purposes of conducting IPA business); adding non-business destinations to the itinerary; requesting specific stopover locations for personal reasons; or adding personal time before, during, or after the trip.",
+      "why": "an itinerary changed for personal reasons (another departure city) is disclosed"
+    },
+    {
+      "lines": [
+        182,
+        183
+      ],
+      "sha256": "2ef2e42a8bf4ed5ae0616e36212779a22f9ce1edace31164ce8cc6247b6f19bf",
+      "quote": "the traveler must present written evidence of the cost of trip if no personal travel adjustments were to be made",
+      "why": "the business-only fare is the comparison"
+    },
+    {
+      "lines": [
+        388,
+        394
+      ],
+      "sha256": "476687f4f550d6e080b3f0e8ef684043f2baf0460d04f099965e93042bf08456",
+      "quote": "Personal travel booked in conjunction with or in association with work-related travel is the responsibility of the employee. IPA will not reimburse for personal travel expenses when personal travel is made in conjunction with work-related travel. Travelers are required to pay directly any incremental costs for airline tickets, hotel accommodations and other expenses incurred relating to personal travel. Travelers are expected to demonstrate the cost difference resulting from modifying a trip for personal reasons, and under such circumstances the traveler is responsible for the difference.",
+      "why": "personal travel is the employee's; the traveller pays incremental costs"
+    },
+    {
+      "lines": [
+        891,
+        892
+      ],
+      "sha256": "342734cce99b54604ad2681d2fa440583015499060965de437a563bc01354f70",
+      "quote": "Cost comparison if route or duration of stay is modified for personal reasons.",
+      "why": "a cost comparison when the route changes for personal reasons"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 175-179: leaving from somewhere other than the home of record for personal reasons is disclosed in the approval request, as it was; lines 390-394: the traveller pays the incremental cost. The business-only fare from Dulles is $430; the lowest from Mexico City is $540, and the traveller pays the $110. Book the Avianca nonstop from Mexico City, not the cheaper Dulles flight the traveller will not be at."
+}

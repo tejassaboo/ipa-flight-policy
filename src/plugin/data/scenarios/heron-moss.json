@@ -1,0 +1,146 @@
+{
+  "id": "heron-moss",
+  "category": "boundary_twin",
+  "overlays": [
+    "multi_leg",
+    "overnight"
+  ],
+  "twin_of": "indigo-fern",
+  "twin_fact": "flight time to Nairobi 840 or 841 minutes on both itineraries",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "JFK to Nairobi on February 23rd for the evaluation workshop that starts on the 26th. I'd like to break the journey with a night in Amsterdam. If that isn't allowed, book what the policy allows.",
+  "trip": {
+    "traveller_name": "Elena Voss",
+    "traveller_title": "Senior Research Manager",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "JFK",
+    "origin": "JFK",
+    "destination": "NBO",
+    "travel_date": "2027-02-23",
+    "booking_date": "2027-01-26",
+    "business_starts": "2027-02-26 09:00",
+    "purpose": "Evaluation workshop in Nairobi",
+    "purpose_kind": "PROJECT_WORK",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": false,
+    "wants_overnight_stop": true,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      },
+      {
+        "role": "GLOBAL_TEAM_DIRECTOR",
+        "name": "Daniel Osei",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "JFK",
+        "destination": "NBO",
+        "date": "2027-02-23",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "kenya": {
+            "carrier": "KQ",
+            "depart": "11:30",
+            "minutes": [
+              840
+            ]
+          },
+          "amsterdam": {
+            "carrier": "KL",
+            "via": [
+              "AMS"
+            ],
+            "depart": "18:00",
+            "minutes": [
+              395,
+              445
+            ],
+            "layovers": [
+              900
+            ],
+            "stopovers": [
+              true
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "kenya-economy",
+            "flight": "kenya",
+            "cabin": "ECONOMY",
+            "fare_cents": 118000
+          },
+          {
+            "slot": "amsterdam-economy",
+            "flight": "amsterdam",
+            "cabin": "ECONOMY",
+            "fare_cents": 129500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "kenya-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LONG_FLIGHT_CONDITION_NOT_MET",
+      "REST_STOP_CONDITIONS_NOT_MET"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "GLOBAL_TEAM_DIRECTOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        347,
+        353
+      ],
+      "sha256": "8b86f97671899284e8059987aeb9e34831c2b64cef25307a1fd5048a0ed9436b",
+      "quote": "While travelling internationally a rest period (overnight layover) is permitted assuming all of the following conditions apply: o The scheduled flight time, including non-overnight stopovers and change of planes, is in excess of 14 hours; and o The layover may not exceed 24 hours, and o Travel is by a direct or usually traveled route, and o Travel is by coach class.2",
+      "why": "an international rest stop: over 14 hours, layover up to 24 hours, usual route, coach"
+    },
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The KLM flights add to exactly 840 minutes (395 + 445; the Amsterdam night is the overnight stop and is left out), and the Kenya Airways nonstop is 840 minutes too: 14 hours is not 'in excess of 14 hours' (lines 349-350), so the rest period is not permitted. The traveller asked for what the policy allows otherwise: the lowest economy fare, the nonstop."
+}

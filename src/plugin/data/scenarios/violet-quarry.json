@@ -1,0 +1,146 @@
+{
+  "id": "violet-quarry",
+  "category": "hidden_clause",
+  "overlays": [
+    "synonym"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Reagan National to Boston on January 19th for the board briefing on the 20th. The date might still move, so please get me a fully flexible ticket I can cancel for a refund. If that isn't allowed, book what the policy allows; I have to be at the briefing.",
+  "trip": {
+    "traveller_name": "Grace Liu",
+    "traveller_title": "Executive Officer",
+    "passenger": "EMPLOYEE",
+    "accompanies": "",
+    "staff_unit": "GLOBAL_TEAM",
+    "home_airport": "DCA",
+    "origin": "DCA",
+    "destination": "BOS",
+    "travel_date": "2027-01-19",
+    "booking_date": "2026-12-28",
+    "business_starts": "2027-01-20 10:00",
+    "purpose": "Board briefing in Boston; the date may still move",
+    "purpose_kind": "DONOR_MEETING",
+    "funding": "OVERHEAD",
+    "funding_source": "IPA overhead funds",
+    "award_terms": "",
+    "requested_cabin": "ECONOMY",
+    "chosen_airline": "",
+    "pays_difference": false,
+    "wants_refundable": true,
+    "wants_overnight_stop": false,
+    "medical_note_date": "",
+    "global_operations_told": "",
+    "sign_offs": [
+      {
+        "role": "ASSIGNMENT_SUPERVISOR",
+        "name": "Maya Chen",
+        "subject": "TRIP"
+      }
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "DCA",
+        "destination": "BOS",
+        "date": "2027-01-19",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "first": {
+            "carrier": "AA",
+            "depart": "07:00"
+          },
+          "second": {
+            "carrier": "DL",
+            "depart": "09:30"
+          },
+          "flex": {
+            "carrier": "AA",
+            "depart": "12:00"
+          },
+          "jetblue": {
+            "carrier": "B6",
+            "depart": "15:10"
+          }
+        },
+        "offers": [
+          {
+            "slot": "first-economy",
+            "flight": "first",
+            "cabin": "ECONOMY",
+            "fare_cents": 19800
+          },
+          {
+            "slot": "second-economy",
+            "flight": "second",
+            "cabin": "ECONOMY",
+            "fare_cents": 21400
+          },
+          {
+            "slot": "flex-economy",
+            "flight": "flex",
+            "cabin": "ECONOMY",
+            "fare_cents": 28900,
+            "refundable": true
+          },
+          {
+            "slot": "jetblue-economy",
+            "flight": "jetblue",
+            "cabin": "ECONOMY",
+            "fare_cents": 22500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "first-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE",
+      "REFUNDABLE_FARE_NOT_ALLOWED"
+    ],
+    "approvers": [
+      "ASSIGNMENT_SUPERVISOR",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRFARE",
+      "PREPARING_FOR_TRAVEL",
+      "REIMBURSABLE_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        334,
+        336
+      ],
+      "sha256": "6a217ef9d97b0860e1c742c8a0d624081e3c2fac8dc88a8ae7394d6faac96ece",
+      "quote": "Air travel must be arranged to the fullest extent possible using the lowest economy fare (coach) that meets the business need (including arrival and departure times) via the most direct and expeditious route that can be changed with a fee.",
+      "why": "the lowest changeable economy fare that meets the business need, on the most direct route"
+    },
+    {
+      "lines": [
+        403,
+        404
+      ],
+      "sha256": "dfedab8dfacd9745c1b1e12b6013574d0c1e3a3dd4f9cc42f7f5a3bc6e665f4b",
+      "quote": "Change fees for air travel are reimbursable due to official business purposes when justifiably documented.",
+      "why": "a change of date for business is a reimbursable change fee"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 334-336: the standard is the lowest economy fare 'that can be changed with a fee', which a fare that is not refundable is (search_flights says so); if the date moves for business, the change fee is reimbursable (lines 403-404). The request's 'fully flexible ... refund' is not the standard: the lowest fare, American 07:00."
+}
