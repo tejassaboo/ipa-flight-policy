@@ -77,6 +77,9 @@ NOTICE = keep(147, 153, None, "listed countries (India among them): Global Opera
 FLY = keep(504, 506, None, "federally funded travel to or from the U.S. on a U.S.-flag, Open Skies or code share flight")
 FLY_COST = keep(507, 509, "Cost alone is not a justification for taking a foreign carrier",
                 "cost alone does not justify a foreign carrier")
+POLICY_OWNER = keep(82, 84, "Global Operations is also responsible for establishing and updating IPA travel "
+                    "policies in conjunction with internal stakeholders, overseeing IPA's compliance with this Travel "
+                    "Manual", "Global Operations owns the travel policies: an unclear hold may await it")
 FLY_SIX = keep(513, 517, None, "the exceptions, among them a U.S. carrier at least 6 hours longer")
 FLY_PROC = keep(1065, 1066, None, "the procedure restates the U.S.-flag carrier rule")
 FLY_PROC_SIX = keep(1081, 1081, None, "the procedure restates the 6-hour exception")
@@ -881,9 +884,10 @@ scenario(
         offer("dubai-economy", "dubai", "ECONOMY", 123000),
     ]),
     expected("FLAG_FOR_APPROVAL", ["amsterdam-economy", "newark-economy"], ["ECONOMY"], UNCLEAR,
-             ["CHIEF_FINANCIAL_OFFICER", "GRANTS_TEAM", "NOT_NAMED"], ["US_GOVERNMENT_PROCEDURE", "USG_FUNDED_TRAVEL"],
+             ["ASSIGNMENT_SUPERVISOR", "CHIEF_FINANCIAL_OFFICER", "GLOBAL_OPERATIONS",
+              "GLOBAL_TEAM_DIRECTOR", "GRANTS_TEAM", "NOT_NAMED"], ["US_GOVERNMENT_PROCEDURE", "USG_FUNDED_TRAVEL"],
              phrase="between the U.S. and any point in an EU Member State"),
-    [FLY, OPEN_SKIES, FLY_COST],
+    [FLY, OPEN_SKIES, FLY_COST, POLICY_OWNER],
     "The grant brings in Fly America. KLM is an EU airline flying Dulles-Amsterdam-Nairobi. Lines 1073-1076 allow EU "
     "airlines 'when traveling (1) between the U.S. and any point in an EU Member State or (2) between any two points "
     "outside the United States': each KLM flight fits one branch, but the journey (the U.S. to Kenya) fits neither. "
@@ -907,9 +911,10 @@ scenario(
         offer("miami-economy", "miami", "ECONOMY", 39500),
     ]),
     expected("FLAG_FOR_APPROVAL", ["avianca-economy", "miami-economy"], ["ECONOMY"], UNCLEAR,
-             ["ASSIGNMENT_SUPERVISOR", "CHIEF_FINANCIAL_OFFICER", "NOT_NAMED"], LOW,
+             ["ASSIGNMENT_SUPERVISOR", "CHIEF_FINANCIAL_OFFICER", "GLOBAL_OPERATIONS", "GLOBAL_TEAM_DIRECTOR",
+              "NOT_NAMED"], LOW,
              phrase="via the most direct and expeditious route"),
-    [LOWEST, TABLE, INDEPENDENT],
+    [LOWEST, TABLE, INDEPENDENT, POLICY_OWNER],
     "Lines 334-336: 'the lowest economy fare (coach) that meets the business need (including arrival and departure "
     "times) via the most direct and expeditious route'. The American connection through Miami is $125 cheaper but "
     "takes 480 minutes against the Avianca nonstop's 330; both land the day before the meeting. On one reading the "

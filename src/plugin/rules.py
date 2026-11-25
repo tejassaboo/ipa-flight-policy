@@ -229,6 +229,12 @@ def lowest_or_unclear(pool):
 # ----- who must approve the trip -----
 
 
+# An unclear hold may await whoever settles the words: no role named, the CFO (non-compliant expenses, lines
+# 129-131), Global Operations (it establishes the travel policies and oversees compliance, lines 81-84), or the
+# trip's own approvers, who approve the itinerary and fare (lines 159-162, 671-675).
+UNCLEAR_ROLES = (Approver.NOT_NAMED, Approver.CHIEF_FINANCIAL_OFFICER, Approver.GLOBAL_OPERATIONS)
+
+
 def trip_roles(trip):
     """Lines 159-161: domestic travel is approved by the Assignment Supervisor; international travel by the Country
     Director (Country Office staff) or the appropriate Global Team Director (Global Team staff). Lines 659-672 and
@@ -370,7 +376,7 @@ def choose(trip, route):
         if timing:
             raise ValueError("an unclear routing with a timing constraint is not modelled")
         return answer(Decision.FLAG_FOR_APPROVAL, unclear, [ReasonCode.UNCLEAR_POLICY_TEXT, ReasonCode.APPROVAL_REQUIRED],
-                      [Approver.NOT_NAMED, Approver.ASSIGNMENT_SUPERVISOR, Approver.CHIEF_FINANCIAL_OFFICER], LOW_CLAUSES,
+                      [*UNCLEAR_ROLES, *trip_roles(trip)], LOW_CLAUSES,
                       "Lines 334-336: air travel uses 'the lowest economy fare (coach) that meets the business need "
                       "(including arrival and departure times) via the most direct and expeditious route'. The lowest "
                       "fare connects and takes longer; the nonstop is the most direct and expeditious but dearer, and "
@@ -521,7 +527,7 @@ def fly_america(trip, pool):
             raise ValueError("an EU itinerary that changes nothing is not modelled")
         return answer(Decision.FLAG_FOR_APPROVAL, [*strict, *loose],
                       [ReasonCode.UNCLEAR_POLICY_TEXT, ReasonCode.APPROVAL_REQUIRED],
-                      [Approver.NOT_NAMED, Approver.GRANTS_TEAM, Approver.CHIEF_FINANCIAL_OFFICER],
+                      [*UNCLEAR_ROLES, *trip_roles(trip), Approver.GRANTS_TEAM],
                       [Clause.USG_FUNDED_TRAVEL, Clause.US_GOVERNMENT_PROCEDURE],
                       "Lines 504-506 allow an Open Skies carrier, and lines 1073-1076 allow EU carriers 'when traveling "
                       "(1) between the U.S. and any point in an EU Member State or (2) between any two points outside "

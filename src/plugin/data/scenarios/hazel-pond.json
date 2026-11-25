@@ -121,6 +121,8 @@
     "approvers": [
       "ASSIGNMENT_SUPERVISOR",
       "CHIEF_FINANCIAL_OFFICER",
+      "GLOBAL_OPERATIONS",
+      "GLOBAL_TEAM_DIRECTOR",
       "NOT_NAMED"
     ],
     "clauses": [
@@ -157,6 +159,15 @@
       "sha256": "45cc3923adbb943847ed7d7f25ec7f5c86c46e1ee94c35406e7e46ef76b75adb",
       "quote": "ensuring that the selected flight is the lowest economy fare via the most direct and expeditious route",
       "why": "the booking procedure repeats the airfare standard"
+    },
+    {
+      "lines": [
+        82,
+        84
+      ],
+      "sha256": "c388eb95554d06577544c0dba31f02373d8bbe4acc03444b30d448df40079ce7",
+      "quote": "Global Operations is also responsible for establishing and updating IPA travel policies in conjunction with internal stakeholders, overseeing IPA's compliance with this Travel Manual",
+      "why": "Global Operations owns the travel policies: an unclear hold may await it"
     }
   ],
   "distractors": [],

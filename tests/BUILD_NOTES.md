@@ -89,7 +89,8 @@ for the arrival-time business need.
    America codes are accepted (the request is declined on that ground).
 7. Unclear holds accept `UNCLEAR_POLICY_TEXT` or `APPROVAL_REQUIRED`. Roles: `hazel-pond` NOT_NAMED,
    ASSIGNMENT_SUPERVISOR (reviews the itinerary, lines 671-675), CHIEF_FINANCIAL_OFFICER (non-compliant expenses,
-   lines 129-131); `gull-heather` NOT_NAMED, GRANTS_TEAM (sponsor requirements, lines 185-186), CHIEF_FINANCIAL_OFFICER.
+   lines 129-131); `gull-heather` NOT_NAMED, GRANTS_TEAM (sponsor requirements, lines 185-186), CHIEF_FINANCIAL_OFFICER. (Audit
+   2026-11-25 widened both: GLOBAL_OPERATIONS, lines 81-84, and the trip's own approvers; see AUDIT_NOTES.md.)
 8. Personal-trip refusals give `business_starts` empty ("empty when the trip has no work").
 9. Decoy reason codes (grepped; none has a subject in the text): WEEKEND_TRAVEL_HOME, WEEKEND_TRIP_NOT_EARNED (line 237
    is about salary on weekends, not trips home), NEXT_OF_KIN_TRAVEL, CHANCELLOR_WRITTEN_AUTHORIZATION,
